@@ -1,0 +1,20 @@
+[
+  {
+    "mob": "hornets:hornet",
+    "mincount": {
+      "amount": 15
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "result": "deny"
+  },
+  {
+    "mob": "eyesinthedarkness:eyes",
+    "mincount": {
+      "amount": 4
+    },
+    "result": "deny"
+  }
+]

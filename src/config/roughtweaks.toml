@@ -1,0 +1,75 @@
+
+#Here you can tweak some additional stuff this mod does
+[General]
+
+	[General.roughtweaks]
+
+		[General.roughtweaks.general]
+			#Set to false to prevent this mod from setting the natural health regeneration gamerule to false on entering a world (DOESN'T WORK YET, CHANGE IT MANUALLY VIA GAMERULES)
+			health_regen = true
+			#Chance 1 in X that a hostile entity drops either salve, a plaster or a bandage\nSet this to 0 if you want to disable entity drops
+			#Range: 0 ~ 32767
+			drop_chance = 30
+			#Amount of half hearts sleeping heals. Set to 0 to disable this feature
+			#Range: 0.0 ~ 32767.0
+			sleep_heal_amount = 2.0
+
+#Defines how long it takes for a healing item to get used.
+[Items]
+
+	[Items.roughtweaks]
+
+		[Items.roughtweaks.items]
+			#Use count for the bandage item
+			#Range: 0 ~ 72000
+			bandage_use_time = 10
+			#Use time for the salve item
+			#Range: 0 ~ 72000
+			salve_use_time = 5
+			#Use count for the bandage item
+			#Range: 0 ~ 32767
+			bandage_heal_count = 6
+			#Use count for the enchanted medkit item
+			#Range: 0 ~ 32767
+			medkit_enchanted_heal_count = 16
+			#Use count for the salve item
+			#Range: 0 ~ 32767
+			salve_heal_count = 4
+			#Use count for the plaster item
+			#Range: 0 ~ 72000
+			plaster_use_time = 10
+			#Use count for the plaster item
+			#Range: 0 ~ 32767
+			plaster_heal_count = 4
+			#Use count for the medkit item
+			#Range: 0 ~ 32767
+			medkit_heal_count = 16
+			#Use count for the enchanted medkit item
+			#Range: 0 ~ 72000
+			medkit_enchanted_use_time = 40
+			#Use count for the medkit item
+			#Range: 0 ~ 72000
+			medkit_use_time = 40
+
+#Defines how much health the item restores on rightclick.
+["Heal Amount"]
+
+	["Heal Amount".roughtweaks]
+
+		["Heal Amount".roughtweaks.heal]
+			#Salve heal amount
+			#Range: 1.0 ~ 32767.0
+			bandage_heal_count = 1.0
+			#Salve heal amount
+			#Range: 1.0 ~ 32767.0
+			medkit_enchanted_heal_count = 3.0
+			#Salve heal amount
+			#Range: 1.0 ~ 32767.0
+			salve_heal_count = 1.0
+			#Salve heal amount
+			#Range: 1.0 ~ 32767.0
+			plaster_heal_count = 1.0
+			#Salve heal amount
+			#Range: 1.0 ~ 32767.0
+			medkit_heal_count = 2.0
+

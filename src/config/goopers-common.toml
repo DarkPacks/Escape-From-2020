@@ -1,0 +1,26 @@
+
+#Gooper Attack Settings
+["Gooper Attack Settings"]
+	#Explosion Size
+	#Range: 1 ~ 32
+	explosion_size = 1
+	#Charged Explosion Size
+	#Range: 1 ~ 32
+	explosion_size_charged = 3
+	#Gooper Blocks Placed
+	gooper_blocks_placed = ["diregoo:gooblockterrain"]
+
+#Gooper Spawn Settings
+["Gooper Spawn Settings"]
+	#Gooper Spawn Group Minimum Size
+	#Range: > 1
+	gooper_min_spawn_size = 1
+	#Gooper Spawn Dimension Blacklist
+	gooper_dimensions = []
+	#Gooper Spawn Group Maximum Size
+	#Range: > 1
+	gooper_max_spawn_size = 3
+	#Gooper Spawn Chance Probability
+	#Range: > 1
+	gooper_chance = 10
+

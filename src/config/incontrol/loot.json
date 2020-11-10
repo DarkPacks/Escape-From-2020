@@ -1,0 +1,22 @@
+[
+  {
+    "mob": "hornets:hornet",
+    "player": true,
+    "item": "minecraft:tipped_arrow",
+    "nbt": {
+      "display": {
+        "Name": "[{\"text\":\"Stinger\"}]",
+        "Lore": [
+          "[{\"text\":\"Do not take internally\"}]"
+        ]
+      },
+      "CustomPotionEffects": [
+        {
+          "Duration": 1,
+          "Id": 19,
+          "Amplifier": 0
+        }
+      ]
+    }
+  }
+]

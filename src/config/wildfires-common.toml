@@ -1,0 +1,12 @@
+
+#Wildfire Spawn Settings
+["Wildfire Spawn Settings"]
+	#Wildfire Spawn Chance on Flammable Blocks
+	#Range: > 1
+	wildfire_chance = 1
+	#Wildfire Spawn Chance on Non-Flammable Blocks
+	#Range: > 1
+	wildfire_chance_non_flam = 10
+	#Wildfire Spawn Dimension Blacklist
+	wildfire_dimensions = []
+

@@ -1,0 +1,8 @@
+# Dev mods
+src/config/tellme.*
+src/config/tellme/*
+src/config/worldstripper-common.toml
+
+# Client configs
+# These are ones we feel the user should be customizing, not us.
+src/config/jei/bookmarks.ini

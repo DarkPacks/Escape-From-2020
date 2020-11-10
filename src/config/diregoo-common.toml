@@ -1,0 +1,170 @@
+
+#Goo Spread settings
+[goo_spread]
+	#The range from players in which Goo can spread. Goo outside of this range won't spread (Like vanilla mob spawners)
+	#Range: > 0
+	playerSpreadRange = 100
+	#The maximum number of goo blocks that can cause a blockchange per chunk in a single tick. Lowering this number will slow the spread of goo and may improve performance.
+	#Range: 1 ~ 10000
+	maxBlockChanges = 200
+	#The maximum number of chunks that can be queue'd in the server processing queue. Probably don't need to mess with this unless you know what you're doing and why.
+	#Range: 1 ~ 500
+	maxChunkQueue = 100
+	#The chance for Frozen Goo to melt on block tick. The lower this number, the longer it stays frozen.
+	#Range: 0 ~ 100
+	freezeMeltChance = 50
+	#Do we batch the goo spread? Should increase performance.
+	batchSpread = true
+	#Force extra goo ticks. This is the delay (in ticks) before goo is forced to spread - the higher the number the slower the spread. -1 disables this. Only use this if you want goo to spread even faster than normal
+	#Range: > -1
+	spreadTickDelay = -1
+	#Does the goo use entities to animate spread, or do simple setblocks?
+	animateSpread = true
+	#How frequently the server processes a batch of goo. The amount of chunks processed is defined in maxChunkChanges. That many chunks will change every X ticks per this value
+	#Range: 1 ~ 2000
+	gooSpreadFrequency = 20
+	#The maximum number of chunks that can change per spreadEvent as a result of goospread. Lowering this number will slow the spread of goo and may improve performance.
+	#Range: 1 ~ 250
+	maxChunkChanges = 10
+	#Can the goo spread. Set the false to disable all goo spreading.
+	canSpreadAll = true
+
+	#Normal Goo Specific Settings
+	[goo_spread.normal_goo]
+		#Can the normal goo spread. Set the false to disable only normal goo spreading.
+		canSpreadGoo = true
+		#The chance that goo will spread when it randomly ticks. The lower this is, the slower goo spreads.
+		#Range: 1 ~ 100
+		spreadChanceGoo = 100
+
+	#Terrain Goo Specific Settings
+	[goo_spread.terrain_goo]
+		#The chance that terrain goo will spread when it randomly ticks. The lower this is, the slower goo spreads.
+		#Range: 1 ~ 100
+		spreadChanceTerrain = 100
+		#Can the terrain goo spread. Set the false to disable only terrain goo spreading.
+		canSpreadTerrain = true
+
+	#GNT Settings
+	[goo_spread.gnt]
+		#The radius of Tier 2 GNT
+		#Range: 1 ~ 100
+		gntTier2Radius = 10
+		#The radius of Tier 1 GNT
+		#Range: 1 ~ 100
+		gntTier1Radius = 5
+		#The radius of Tier 4 GNT
+		#Range: 1 ~ 100
+		gntTier4Radius = 20
+		#The radius of Tier 3 GNT
+		#Range: 1 ~ 100
+		gntTier3Radius = 15
+
+#RF SETTINGS
+[rfcosts]
+
+	#Goolimination Field Gen Settings
+	[rfcosts.tile_goolimination]
+		#The RF cost per tick to run the Goolimination Field Generator
+		#Range: > 0
+		gooliminationCost = 1000000
+		#The max amount of RF in the Goolimination Field Generator
+		#Range: > 0
+		gooliminationMaxEnergy = 1000000000
+
+	#Goo Zapper Turret Settings
+	[rfcosts.tile_zapper_turret]
+		#The base RF cost per shot (Per block activation). This increases based on installed upgrades
+		#Range: > 0
+		zapperTileRFCost = 10000
+		#The max amount of RF in the Zapper Turret
+		#Range: > 0
+		zapperMaxEnergy = 1000000
+
+	#AntiGoo field Generator Settings
+	[rfcosts.tile_antigoofield]
+		#The max amount of RF in the Antigoo Field Generator
+		#Range: > 0
+		antigooMaxEnergy = 10000000
+		#The RF cost per block protected by the Anti Goo Field Generator
+		#Range: 0.0 ~ 1.7976931348623157E308
+		antiGooFieldCost = 1.0
+
+	#Goo Remover (Item) Settings
+	[rfcosts.item_remover]
+		#The max RF the Goo Remover can hold
+		#Range: > 0
+		removerRFMax = 1000000
+		#The RF cost per shot (Per block removed)
+		#Range: > 0
+		removerRFCost = 1000
+
+	#Goo Removal Turret Settings
+	[rfcosts.tile_turret]
+		#The RF cost per shot (Per block removed)
+		#Range: > 0
+		turretRFCost = 1000
+		#The max amount of RF in the Goo Removal Turret
+		#Range: > 0
+		turretMaxEnergy = 1000000
+		#The number of boosted (Faster) shots per AntiGooDust
+		#Range: > 0
+		turretBoostCount = 10
+
+	#Goo Zapper (Item) Settings
+	[rfcosts.item_zapper]
+		#The base RF cost per tick while melting
+		#Range: > 0
+		zapperRFCostMelt = 500
+		#The RF Cost multiplier per tier of Radius Upgrade. T1 = x. T2 = 2x. T3 = 3x. Etc
+		#Range: > 0
+		zapperRFCostTierMultiplier = 3
+		#The max RF the Goo Zapper can hold
+		#Range: > 0
+		zapperRFMax = 10000000
+		#The base RF cost per tick while freezing
+		#Range: > 0
+		zapperRFCostFreeze = 250
+
+#WORLDGEN
+[worldgen]
+
+	#Normal Goo Worldgen Settings
+	[worldgen.worldgen_normalgoo]
+		#Can normal goo generate underground like ores
+		can_gen_normal_underground = true
+		#The chance for goo to generate underground, 1 in X chunks. Bigger number means more rare
+		#Range: 1 ~ 10000
+		gen_normal_underground_chance = 25
+		#Can normal goo generate above ground (in the air)
+		can_gen_normal_aboveground = true
+		#The minimum Y level that normal goo can spawn underground
+		#Range: 0 ~ 255
+		gen_normal_underground_ymin = 0
+		#The chance for goo to generate aboveground, 1 in X chunks. Bigger number means more rare
+		#Range: 1 ~ 10000
+		gen_normal_aboveground_chance = 25
+		#The maximum Y level that normal goo can spawn aboveground
+		#Range: 0 ~ 255
+		gen_normal_aboveground_ymax = 125
+		#The maximum Y level that normal goo can spawn underground
+		#Range: 0 ~ 255
+		gen_normal_underground_ymax = 16
+		#The minimum Y level that normal goo can spawn aboveground
+		#Range: 0 ~ 255
+		gen_normal_aboveground_ymin = 70
+
+	#Terrain Goo Worldgen Settings
+	[worldgen.worldgen_terraingoo]
+		#The chance for terrain goo to generate underground, 1 in X chunks. Bigger number means more rare
+		#Range: 1 ~ 10000
+		gen_terrain_underground_chance = 25
+		#The maximum Y level that terrain goo can spawn underground
+		#Range: 0 ~ 255
+		gen_terrain_underground_ymax = 16
+		#The minimum Y level that terrain goo can spawn underground
+		#Range: 0 ~ 255
+		gen_terrain_underground_ymin = 0
+		#Can terrain goo generate underground like ores
+		can_gen_terrain_underground = true
+

@@ -1,0 +1,17 @@
+
+#These options affect only the client that loads the mod.
+[clientOnly]
+	#Entities with these names will always have Googly Eyes.
+	nameOverride = []
+	#To disable Googly Eyes on a specific entity, put their registry name in here.
+	#EG: "Pig", "Skeleton"
+	#For Players, put "player"
+	disabledGoogly = []
+	#Googly Eye chance (in %)
+	#Range: 0 ~ 100
+	googlyEyeChance = 20
+	#Entity chance override. Each entry should be a resource location and a chance, separated by a comma. EG: "minecraft:pig,100" will make all minecraft pigs have a 100% chance of having Googly Eyes.
+	entityOverrideChance = []
+	#Let them googly eyes be trippin'
+	acidTripEyes = false
+
