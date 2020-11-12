@@ -1,0 +1,12 @@
+#Base absorption amount to give to players in half hearts, replenishes like regular health. If 0, players will start with no absorption.
+#Range: 0 ~ 20
+base_absorption = 0
+#If true, hearts from the potion effect will be included in absorption calculations
+include_potion = false
+#Amount of half hearts of absorption granted per piece of gold armor worn.
+#Range: 0 ~ 4
+gold_absorption = 1
+#Maximum level for the enchantment per piece. Each level gives half a heart. If 0, enchantment will be disabled.
+#Range: 0 ~ 6
+max_enchantment_level = 4
+

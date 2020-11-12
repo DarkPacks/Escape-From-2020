@@ -1,5 +1,5 @@
 function registerPresets() {
-    Config.registerPreset("overworld", "Overworld", "", "Example Description")
+    Config.registerPreset("overworld", "Enter 2020", "background2", "Time to go!")
     .registerDimension("overworld", "overworld")
     //Adds EventHandler for the BiomeLoadingEvent. This runs for every biome.
     .registerEventHandler("BiomeLoadingEvent", Java.extend(Consumer, {
@@ -8,6 +8,12 @@ function registerPresets() {
             //Clears the ore which has already been registered
             OreHelper.clearOre(event);
  
+            //event, structure resource location
+            FeatureHelper.removeStructure(event, "mineshaft");
+
+            FeatureHelper.removeFeature(event, "void_start_platform");
+
+
             ////           
             ////
             //Vanilla Ore
@@ -15,38 +21,38 @@ function registerPresets() {
             ////
             //Coal Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("minecraft:coal_ore"), 20, 14, 64, 192, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:coal_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 14, 64, 192, true, 2);
             });          
             //Iron Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("minecraft:iron_ore"), 20, 12, 64, 192, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:iron_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 12, 64, 192, true, 2);
             });                      
             //Gold Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("minecraft:gold_ore"), 15, 5, 64, 120, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:gold_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 5, 64, 120, true, 4);
             });
             //Lapis Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("minecraft:lapis_ore"), 20, 5, 64, 192, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:lapis_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 5, 64, 192, true, 4);
             });
             //Diamond Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("minecraft:diamond_ore"), 14, 2, 32, 100, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:diamond_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 2, 32, 100, true, 4);
             });
             //Toilet Paper / Emerald Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("minecraft:redstone_ore"), 14, 2, 32, 100, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:redstone_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 2, 32, 100, true, 4);
             });
             //Redstone Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("minecraft:emerald_ore"), 12, 2, 32, 160, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:emerald_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 2, 32, 160, true, 4);
             });            
             ////
             ////
@@ -55,53 +61,65 @@ function registerPresets() {
             ////
             //thermal:apatite_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:apatite_ore"), 22, 8, 32, 192, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:apatite_ore"), OreHelper.BASE_STONE_OVERWORLD, 22, 8, 32, 192, true, 4);
             });
             //thermal:cinnabar_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:cinnabar_ore"), 18, 8, 32, 192, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:cinnabar_ore"), OreHelper.BASE_STONE_OVERWORLD, 18, 8, 32, 192, true, 4);
             });
             //thermal:niter_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:niter_ore"), 15, 6, 20, 100, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:niter_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 6, 20, 100, true, 4);
             });
             //thermal:sulfur_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:sulfur_ore"), 15, 6, 20, 100, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:sulfur_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 6, 20, 100, true, 4);
             });
             //thermal:copper_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:copper_ore"), 22, 10, 100, 192, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:copper_ore"), OreHelper.BASE_STONE_OVERWORLD, 22, 10, 100, 192, true, 2);
             });
             //thermal:tin_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:tin_ore"), 16, 9, 70, 120, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:tin_ore"), OreHelper.BASE_STONE_OVERWORLD, 16, 9, 70, 120, true, 2);
             });
             //thermal:lead_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:lead_ore"), 14, 8, 30, 90, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 30, 90, true, 3);
             });
             //thermal:silver_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:silver_ore"), 14, 5, 50, 90, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 5, 50, 90, true, 4);
             });
             //thermal:nickel_ore Ore
             OreHelper.addOre(event, function() {
-                //block, clusterSize, minHeight, maxHeight, square
-                return OreHelper.buildOreForOverworldStone(BlockHelper.getState("thermal:nickel_ore"), 20, 10, 64, 192, true);
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:nickel_ore"), OreHelper.BASE_STONE_OVERWORLD, 20, 10, 64, 192, true, 3);
             });
+
+
+            //Dire's Goo
+            OreHelper.addOre(event, function() {
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("diregoo:gooblockterrain"), OreHelper.BASE_STONE_OVERWORLD, 1, 1, 10, 192, true, 15);
+            });
+
+
+            
         }
     }).class);
 }
 
 
-
+function setConfigOptions() {
+    Config.setGuiBackground("background3");
+}
 

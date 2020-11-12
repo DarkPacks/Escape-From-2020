@@ -137,7 +137,7 @@
 		#Range: 1 ~ 10000
 		gen_normal_underground_chance = 25
 		#Can normal goo generate above ground (in the air)
-		can_gen_normal_aboveground = true
+		can_gen_normal_aboveground = false
 		#The minimum Y level that normal goo can spawn underground
 		#Range: 0 ~ 255
 		gen_normal_underground_ymin = 0

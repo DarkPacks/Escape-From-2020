@@ -35,7 +35,7 @@
 			giantBouldersPerChunk = 0.5
 			#
 			# Adds tiny boulders to modded Taiga biomes.
-			addTinyBouldersModdedBiomes = false
+			addTinyBouldersModdedBiomes = true
 			#
 			# Adds a large tree somewhat uncommonly to Swamp biome and replaces
 			# all vanilla trees in Swamp Hills biome with the larger tree.

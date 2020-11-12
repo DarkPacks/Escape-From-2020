@@ -2,7 +2,7 @@
 [General]
 	#The radius around the campfire in blocks where players receive the regeneration effect.
 	#Range: 1 ~ 64
-	healingRadius = 16
+	healingRadius = 8
 	#The level of regeneration which the campfire applies, by default 1.
 	#Range: 1 ~ 50
 	regenerationLevel = 1
