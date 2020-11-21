@@ -74,13 +74,13 @@
 			# 
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			stoneIglooSpawnrate = 20
+			stoneIglooMaxChunkDistance = 20
 			#
 			# How rare are Grassy Igloos in Plains and Forests.
 			# 
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			grassyIglooSpawnrate = 20
+			grassyIglooMaxChunkDistance = 20
 			#
 			# Add Stone Igloos to modded biomes that are
 			# most likely Giant Tree Taiga variants.
@@ -88,14 +88,19 @@
 
 		["Mod-wide Impacting Options"."Structure Options"."Jungle Fortress"]
 			#
-			# How rare are Jungle Fortresses.
-			# 
-			# 1 for spawning in most chunks and 1001 for no spawn.
-			#Range: 1 ~ 1001
-			jungleFortressSpawnrate = 32
-			#
 			# Controls whether loot chests spawn or not in Jungle Fortresses.
-			lootChestsJF = true
+			lootChests = true
+			#
+			# How often Silverfish Blocks will generate in Jungle Fortress as a percentage.
+			# Note: Mossy Stone Bricks block cannot be infected by Silverfish
+			# 
+			# 0 for no Silverfish Blocks and 100 for max spawnrate.
+			#Range: 0.0 ~ 100.0
+			silverfishSpawnrate = 0.5
+			#
+			# Silverfish Mob Spawners generate in Stone Fortresses.
+			# If turned off, the spawners will become Skeleton spawners.
+			allowSilverfishSpawner = true
 			#
 			# Add the ID/resource location of the biome you don't want
 			# RS's Jungle Fortresses to spawn in. Separate each ID with a comma ,
@@ -103,17 +108,28 @@
 			#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
 			blacklistedFortressBiomes = ""
 			#
+			# How rare are Jungle Fortresses.
+			# 
+			# 1 for spawning in most chunks and 1001 for no spawn.
+			#Range: 1 ~ 1001
+			jungleFortressMaxChunkDistance = 32
+			#
 			# Add Jungle Fortress to modded jungle biomes.
 			addJungleFortressToModdedBiomes = true
+
+		["Mod-wide Impacting Options"."Structure Options"."Ruined Portals"]
+			#Add End themed ruined portals to modded
+			#End category biomes.
+			addRuinedPortalEndToModdedBiomes = true
 			#
-			# How often Silverfish Blocks will generate in Jungle Fortress as a percentage.
-			# Note: Mossy Stone Bricks block cannot be infected by Silverfish
-			# 
-			# 0 for no Silverfish Blocks and 100 for max spawnrate.
-			#Range: 0.0 ~ 100.0
-			silverfishSpawnrateJF = 0.5
+			# Add the ID/resource location of the biome you don't want
+			# RS's Ruined Portals to spawn in. Separate each ID with a comma ,
 			#
-			# Silverfish Mob Spawners generate in Stone Fortresses.
-			# If turned off, the spawners will become Skeleton spawners.
-			allowSilverfishSpawnerJF = true
+			#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
+			blacklistedRuinedPortalsBiomes = ""
+			#How rare are End themed Ruined Portals in
+			#End category biomes. 1 for spawning in most
+			#chunks and 1001 for none.
+			#Range: 1 ~ 1001
+			ruinedPortalEndMaxChunkDistance = 57
 

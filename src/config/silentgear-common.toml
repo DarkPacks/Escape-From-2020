@@ -69,6 +69,10 @@
 [gear]
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
+	#How frequently gear will recalcute stats as damaged
+	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
+	#Range: > 1
+	damageFactorLevels = 10
 
 	[gear.repairs]
 		#DEPRECATED! Use repair kit configs instead.

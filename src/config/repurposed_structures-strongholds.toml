@@ -40,11 +40,6 @@
 		#Range: 0 ~ 1000
 		netherStrongholdChainSpawnrate = 50
 		#
-		# How rare are Nether-styled Strongholds in Nether-category biomes.
-		# 1 for spawning in most chunks and 1001 for no spawn.
-		#Range: 1 ~ 1001
-		netherStrongholdSpawnrate = 85
-		#
 		# Allow Nether-styled Strongholds to spawn in Nether category biomes.
 		# Note: Eyes of Ender will work and show the closest Nether Stronghold too.
 		allowNetherStronghold = true
@@ -55,11 +50,17 @@
 		# Setting this to below min height config will make strongholds spawn only at min height.
 		#Range: 0 ~ 255
 		netherStrongholdMaxHeight = 36
+		#
+		# How rare are Nether-styled Strongholds in Nether-category biomes.
+		# 1 for spawning in most chunks and 1001 for no spawn.
+		#Range: 1 ~ 1001
+		netherStrongholdMaxChunkDistance = 85
 
 	[Stronghold.Stonebrick]
 		#
-		#Add Stonebrick-styled Stronghold to all modded non-Nether
-		#biomes that doesn't have vanilla Strongholds.
+		#Add Stonebrick-styled Stronghold to all modded non-Nether biomes
+		#even if they have don't have vanilla Strongholds. It will replace
+		#the vanilla Strongholds in those biomes if this option is on.
 		#
 		addStonebrickStrongholdToModdedBiomes = true
 		#
@@ -74,6 +75,13 @@
 		#Range: 0.0 ~ 100.0
 		silverfishSpawnrateSH = 0.8
 		#
+		#Add Stonebrick-styled Stronghold which replaces vanilla Strongholds in any
+		#vanilla non-Nether biome. If allowStonebrickStrongholdToVanillaBiomes is
+		#off, vanilla Strongholds will generate again but Repurposed Structures's
+		#Nether Strongholds will still be active.
+		#
+		allowStonebrickStrongholdToVanillaBiomes = true
+		#
 		# Minimum Y height that normal stronghold's starting point can spawn at. 
 		#Default is 0.
 		# Note: Strongholds will spawn between min and max y height set in config.
@@ -81,21 +89,15 @@
 		#Range: 0 ~ 255
 		stonebrickStrongholdMinHeight = 0
 		#
+		# How rare are Stonebrick-styled Strongholds.
+		# 1 for spawning in most chunks and 1001 for no spawn.
+		#Range: 1 ~ 1001
+		stonebrickStrongholdMaxChunkDistance = 85
+		#
 		# Minimum Y height that normal stronghold's starting point can spawn at.
 		# Default is 50.
 		# Note: Strongholds will spawn between min and max y height set in config.
 		# Setting this to below min height config will make strongholds spawn only at min height.
 		#Range: 0 ~ 255
 		stonebrickStrongholdMaxHeight = 45
-		#
-		#Stonebrick-styled Stronghold replaces vanilla Strongholds in any
-		#biome that has it. If off, vanilla Strongholds will generate
-		#once again but Nether Strongholds will still be active.
-		#
-		allowStonebrickStronghold = true
-		#
-		# How rare are Stonebrick-styled Strongholds.
-		# 1 for spawning in most chunks and 1001 for no spawn.
-		#Range: 1 ~ 1001
-		stonebrickStrongholdSpawnrate = 85
 

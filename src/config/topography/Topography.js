@@ -42,17 +42,17 @@ function registerPresets() {
             //Diamond Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:diamond_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 2, 32, 100, true, 4);
-            });
-            //Toilet Paper / Emerald Ore
-            OreHelper.addOre(event, function() {
-                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:redstone_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 2, 32, 100, true, 4);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:diamond_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 3, 32, 120, true, 4);
             });
             //Redstone Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:emerald_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 2, 32, 160, true, 4);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:redstone_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 6, 32, 160, true, 3);
+            });
+            //Toilet Paper / Emerald Ore
+            OreHelper.addOre(event, function() {
+                //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+                return OreHelper.buildVerticalOre(BlockHelper.getState("minecraft:emerald_ore"), OreHelper.BASE_STONE_OVERWORLD, 12, 3, 32, 130, true, 4);
             });            
             ////
             ////
@@ -87,17 +87,17 @@ function registerPresets() {
             //thermal:tin_ore Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:tin_ore"), OreHelper.BASE_STONE_OVERWORLD, 16, 9, 70, 120, true, 2);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:tin_ore"), OreHelper.BASE_STONE_OVERWORLD, 16, 9, 70, 130, true, 2);
             });
             //thermal:lead_ore Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 30, 90, true, 3);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 30, 110, true, 3);
             });
             //thermal:silver_ore Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 5, 50, 90, true, 4);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 5, 50, 110, true, 4);
             });
             //thermal:nickel_ore Ore
             OreHelper.addOre(event, function() {
@@ -109,7 +109,7 @@ function registerPresets() {
             //Dire's Goo
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("diregoo:gooblockterrain"), OreHelper.BASE_STONE_OVERWORLD, 1, 1, 10, 192, true, 15);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("diregoo:gooblockterrain"), OreHelper.BASE_STONE_OVERWORLD, 2, 2, 10, 192, true, 14);
             });
 
 

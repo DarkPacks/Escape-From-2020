@@ -68,6 +68,24 @@
 		#Range: 0 ~ 30
 		melon_chunk_hunger = 2
 
+#Cooked Carrot & Beetroot Hunger and Saturation Values
+[Cooked]
+
+	#Cooked
+	[Cooked."Cooked Carrot & Beetroot"]
+		#Hunger value:
+		#Range: 0 ~ 30
+		cooked_beetroot_hunger = 2
+		#Hunger value:
+		#Range: 0 ~ 30
+		cooked_carrot_hunger = 4
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		cooked_carrot_saturation = 0.8
+		#Saturation value:
+		#Range: 0.0 ~ 10.0
+		cooked_beetroot_saturation = 0.8
+
 #Crop Hunger and Saturation Values
 [Crops]
 

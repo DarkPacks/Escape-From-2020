@@ -57,9 +57,9 @@ boxTopY = -1
 #Range: -1 ~ 10000
 boxBottomY = -1
 #Color of the border of the box (0 to disable)
-boxBorderColor = "ff999999"
+boxBorderColor = "ffffffff"
 #Color of the box (0 to disable)
-boxFillColor = "55006699"
+boxFillColor = "80009900"
 #Thickness of the border of the box (0 to disable)
 #Range: 0 ~ 20
 boxThickness = 2
