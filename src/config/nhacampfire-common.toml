@@ -9,7 +9,7 @@
 	burnHostilesRadiusModifier = 0.5
 	#The radius around the campfire in blocks where hostile mob spawns will be blocked.
 	#Range: 1 ~ 128
-	preventHostilesRadius = 48
+	preventHostilesRadius = 24
 	#When enabled, the mod will work with soul campfires.
 	enableEffectForSoulCampfires = true
 	#When enabled, the campfire only has an effect when the block is signalling.
