@@ -22,7 +22,7 @@
 	animateSpread = true
 	#How frequently the server processes a batch of goo. The amount of chunks processed is defined in maxChunkChanges. That many chunks will change every X ticks per this value
 	#Range: 1 ~ 2000
-	gooSpreadFrequency = 20
+	gooSpreadFrequency = 15
 	#The maximum number of chunks that can change per spreadEvent as a result of goospread. Lowering this number will slow the spread of goo and may improve performance.
 	#Range: 1 ~ 250
 	maxChunkChanges = 10

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CGT",
+    " W "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:charcoal"
+    },
+    "G": {
+      "item": "diregoo:gooresidue"
+    },
+    "T": {
+      "item": "minecraft:cactus"
+    },
+    "W": {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:water"
+      }
+    }
+  },
+  "result": {
+    "item": "pandemic:sanitizer",
+    "count": 1
+  }
+}

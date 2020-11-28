@@ -18,5 +18,15 @@
         }
       ]
     }
+  },
+  {
+    "mob": "goopers:gooper",
+    "remove": "minecraft:gunpowder"
+  },
+  {
+    "mob": "goopers:gooper",
+    "item": "diregoo:gooresidue",
+    "random": 0.4,
+    "itemcount": "0-1/0-2/1-3"
   }
 ]

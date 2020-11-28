@@ -1,0 +1,10 @@
+
+#General settings
+[General]
+	#List of amplifiers for the effect... generally keep it 1
+	amplifierList = [1, 1, 2, 2, 3, 3, 3, 4, 4, 4]
+	#List of Y value after which the effect will kick in
+	yLevelList = [200, 200, 210, 210, 220, 220, 220, 230, 230, 230]
+	#List of effects to give
+	Effects = ["minecraft:slowness", "minecraft:mining_fatigue", "minecraft:slowness", "minecraft:mining_fatigue", "minecraft:weakness", "minecraft:slowness", "minecraft:mining_fatigue", "minecraft:weakness", "minecraft:slowness", "minecraft:mining_fatigue"]
+

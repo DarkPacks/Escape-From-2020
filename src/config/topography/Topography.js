@@ -10,7 +10,6 @@ function registerPresets() {
  
             //event, structure resource location
             FeatureHelper.removeStructure(event, "mineshaft");
-
             FeatureHelper.removeFeature(event, "void_start_platform");
 
 
@@ -112,8 +111,35 @@ function registerPresets() {
                 return OreHelper.buildVerticalOre(BlockHelper.getState("diregoo:gooblockterrain"), OreHelper.BASE_STONE_OVERWORLD, 2, 2, 10, 192, true, 14);
             });
 
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            //return OreHelper.buildOre(BlockHelper.getState("minecraft:granite"), OreHelper.BASE_STONE_OVERWORLD, 42, 50, 10, 192, true, 0);
 
-            
+            //Stoneses 
+            //granite
+            OreHelper.addOre(event, function() {
+                //block, clusterSize, clusterCount, minHeight, maxHeight, square
+                return OreHelper.buildOre(BlockHelper.getState("minecraft:granite"), OreHelper.BASE_STONE_OVERWORLD, 16, 22, 10, 192, true, 0);
+            }); 
+            //diorite           
+            OreHelper.addOre(event, function() {
+                //block, clusterSize, clusterCount, minHeight, maxHeight, square
+                return OreHelper.buildOre(BlockHelper.getState("minecraft:andesite"), OreHelper.BASE_STONE_OVERWORLD, 16, 22, 10, 192, true, 0);
+            });
+            //andesite
+            OreHelper.addOre(event, function() {
+                //block, clusterSize, clusterCount, minHeight, maxHeight, square
+                return OreHelper.buildOre(BlockHelper.getState("minecraft:diorite"), OreHelper.BASE_STONE_OVERWORLD, 16, 22, 10, 192, true, 0);
+            });
+            //Gravel
+            OreHelper.addOre(event, function() {
+                //block, clusterSize, clusterCount, minHeight, maxHeight, square
+                return OreHelper.buildOre(BlockHelper.getState("minecraft:gravel"), OreHelper.BASE_STONE_OVERWORLD, 22, 18, 10, 192, true, 0);
+            });
+            //clay
+            OreHelper.addOre(event, function() {
+                //block, clusterSize, clusterCount, minHeight, maxHeight, square
+                return OreHelper.buildOre(BlockHelper.getState("minecraft:clay"), OreHelper.BASE_STONE_OVERWORLD, 8, 8, 10, 192, true, 0);
+            });         
         }
     }).class);
 }

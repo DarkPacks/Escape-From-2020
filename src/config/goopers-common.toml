@@ -6,9 +6,11 @@
 	explosion_size = 1
 	#Charged Explosion Size
 	#Range: 1 ~ 32
-	explosion_size_charged = 3
+	explosion_size_charged = 7
 	#Gooper Blocks Placed
-	gooper_blocks_placed = ["diregoo:gooblockterrain"]
+	gooper_blocks_placed = ["diregoo:gooblock", "diregoo:gooblock", "minecraft:cake", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "minecraft:fire", "minecraft:fire", "diregoo:gooblockpoison"]
+	#Charged Gooper Blocks Placed
+	charged_gooper_blocks_placed = ["diregoo:gooblock"]
 
 #Gooper Spawn Settings
 ["Gooper Spawn Settings"]
@@ -17,10 +19,14 @@
 	gooper_min_spawn_size = 1
 	#Gooper Spawn Dimension Blacklist
 	gooper_dimensions = []
+	#Charged Gooper Spawn Blocks
+	charged_gooper_spawn_blocks = ["diregoo:gooblockterrain"]
 	#Gooper Spawn Group Maximum Size
 	#Range: > 1
 	gooper_max_spawn_size = 3
 	#Gooper Spawn Chance Probability
 	#Range: > 1
 	gooper_chance = 10
+	#Charged Gooper Spawn in World
+	charged_gooper_spawn_in_world = true
 
