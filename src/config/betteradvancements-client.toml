@@ -2,7 +2,7 @@ defaultUncompletedIconColor = "#FFFFFF"
 defaultUncompletedTitleColor = "#0489C1"
 defaultCompletedIconColor = "#DBA213"
 defaultCompletedTitleColor = "#DBA213"
-doAdvancementsBackgroundFade = true
+doAdvancementsBackgroundFade = false
 showDebugCoordinates = false
 orderTabsAlphabetically = false
 #Values below 50% might give odd results, use on own risk ;)

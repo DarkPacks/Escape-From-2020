@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pgp",
+    "rar",
+    "pgp"
+  ],
+  "key": {
+    "p": {
+      "tag": "forge:ingots/tin"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "a": {
+      "tag": "forge:gems/emerald"
+    },
+    "g": {
+      "item": "diregoo:antigoodust"
+    }
+  },
+  "result": {
+    "item": "diregoo:powerampt3"
+  }
+}

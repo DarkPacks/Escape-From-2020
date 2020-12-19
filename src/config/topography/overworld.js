@@ -1,10 +1,6 @@
 var biomesToRemove = Java.to(
 	[
 		"minecraft:eroded_badlands",
-		"byg:canyons",
-		"byg:crag_gardens",
-		"byg:shattered_glacier",
-		"byg:dunes",
 	],
 	"java.lang.String[]"
 );
@@ -58,6 +54,8 @@ function buildChunkGenerator(seed, biomeRegistry) {
 				false
 			);
 		},
-		seed
-	);
+		seed,
+		164,
+		48
+	).setSeaLevel(63);
 }

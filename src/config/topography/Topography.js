@@ -71,17 +71,17 @@ function registerPresets() {
             //thermal:niter_ore Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:niter_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 6, 20, 100, true, 4);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:niter_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 8, 20, 120, true, 4);
             });
             //thermal:sulfur_ore Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:sulfur_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 6, 20, 100, true, 4);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:sulfur_ore"), OreHelper.BASE_STONE_OVERWORLD, 15, 8, 20, 120, true, 4);
             });
             //thermal:copper_ore Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:copper_ore"), OreHelper.BASE_STONE_OVERWORLD, 22, 10, 100, 192, true, 2);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:copper_ore"), OreHelper.BASE_STONE_OVERWORLD, 22, 10, 120, 192, true, 2);
             });
             //thermal:tin_ore Ore
             OreHelper.addOre(event, function() {
@@ -91,12 +91,12 @@ function registerPresets() {
             //thermal:lead_ore Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 30, 110, true, 3);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:lead_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 8, 30, 120, true, 3);
             });
             //thermal:silver_ore Ore
             OreHelper.addOre(event, function() {
                 //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
-                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 5, 50, 110, true, 4);
+                return OreHelper.buildVerticalOre(BlockHelper.getState("thermal:silver_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 5, 50, 120, true, 4);
             });
             //thermal:nickel_ore Ore
             OreHelper.addOre(event, function() {

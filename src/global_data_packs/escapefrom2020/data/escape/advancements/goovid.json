@@ -1,0 +1,27 @@
+{
+  "parent": "escape:root",
+  "display": {
+    "icon": {
+      "item": "pandemic:sanitizer"
+    },
+    "title": {
+      "translate": "GooVID-20"
+    },
+    "description": {
+      "translate": "Looks like you caught the GooVID! You might want to Sanitize!"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "pandemic:disease": {}
+        }
+      }
+    }
+  }
+}

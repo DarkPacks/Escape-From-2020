@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pap",
+    " g ",
+    "p p"
+  ],
+  "key": {
+    "p": {
+      "tag": "forge:ingots/tin"
+    },
+    "a": {
+      "tag": "forge:nether_stars"
+    },
+    "g": {
+      "item": "diregoo:powerampt3"
+    }
+  },
+  "result": {
+    "item": "diregoo:powerampt4"
+  }
+}

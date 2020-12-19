@@ -5,12 +5,14 @@
 	enable_tools = false
 	#This option will make pre-2.0.0 worlds playable with version 2.0.0 and later.
 	enable_dummy_pieces = false
+	#Enables extended debug logging to help detecting potential errors. This is enabled by default.
+	extended_debug = false
 
 #World Generation Settings
 [world_generation]
 	#The probability of a dungeon getting generated on each fitting chunk.
 	#Range: 1.0E-4 ~ 1.0
-	dungeon_probability = 0.22
+	dungeon_probability = 1.0
 	#If this is set to false, no dungeons can be generated outside the overworld.
 	ignore_dimension = true
 	#Makes the entire dungeon solid, preventing caves, ravines, etc... from interfering with the dungeon.
@@ -26,7 +28,7 @@
 	#Set this to true if you want to prevent that the last layer of each dungeon will contain nether content.
 	no_nether_stuff = false
 	#If set to true, the dungeon generation will ignore the biome blacklist and generate dungeons in any overworld biome.
-	ignore_overworld_blacklist = false
+	ignore_overworld_blacklist = true
 	#Determines if vanilla spawners or modified spawners with armor, weapons etc... should be used.
 	use_vanilla_spawners = false
 	#Whether mobs from spawners should despawn naturally or not.

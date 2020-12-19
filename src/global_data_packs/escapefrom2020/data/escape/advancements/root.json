@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "Escape from 2020"
+    },
+    "description": {
+      "translate": "Good luck!"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "pandemic:textures/mob_effect/disease.png"
+  },
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

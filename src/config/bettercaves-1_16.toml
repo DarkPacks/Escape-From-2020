@@ -34,7 +34,7 @@
 		["Better Caves"."Underground Generation".Miscellaneous]
 			# Set to true to enable flooded underground in ocean biomes.
 			# Default: true
-			"Enable Flooded Underground" = true
+			"Enable Flooded Underground" = false
 			# Ignores surface detection for closing off caves and caverns, forcing them to spawn
 			#     up until their max height. Useful for Nether-like dimensions with no real "surface".
 			# Default: false
@@ -42,7 +42,7 @@
 			# Lava (or water in water regions) spawns at and below this y-coordinate.
 			# Default: 10
 			#Range: 0 ~ 255
-			"Liquid Altitude" = 10
+			"Liquid Altitude" = 0
 			# Replace naturally generated floating gravel on the ocean floor with andesite.
 			#     Can prevent lag due to cascading gravel falling into caverns under the ocean.
 			# Default: true
@@ -69,7 +69,7 @@
 			#         ExtraLarge: 0.001
 			# Default: 0.004
 			#Range: 0.0 ~ 0.05
-			"Water Region Size Custom Value" = 0.004
+			"Water Region Size Custom Value" = 0.0
 			# Percent chance of a region having water instead of lava at low altitudes.
 			# Default: 40%
 			#Range: 0.0 ~ 100.0
@@ -248,12 +248,12 @@
 				# The minimum y-coordinate at which Floored Caverns can generate.
 				# Default: 1
 				#Range: 0 ~ 255
-				"Floored Cavern Minimum Altitude" = 1
+				"Floored Cavern Minimum Altitude" = 0
 				# The maximum y-coordinate at which Floored Caverns can generate.
 				#     Caverns will attempt to close off anyway if this value is greater than the surface's altitude.
 				# Default: 35
 				#Range: 0 ~ 255
-				"Floored Cavern Maximum Altitude" = 35
+				"Floored Cavern Maximum Altitude" = 0
 
 			###########################################################################################################
 			## Settings used in the generation of Liquid Caverns found at low altitudes.
@@ -280,7 +280,7 @@
 				#     Caverns will attempt to close off anyway if this value is greater than the surface's altitude.
 				# Default: 35
 				#Range: 0 ~ 255
-				"Liquid Cavern Maximum Altitude" = 35
+				"Liquid Cavern Maximum Altitude" = 0
 
 		###########################################################################################################
 		## Settings used for ravine generation.

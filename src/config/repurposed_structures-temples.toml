@@ -56,7 +56,7 @@
 	# How rare are Badlands Pyramid in non-plateau Badlands biomes.
 	# 1 for spawning in most chunks and 1001 for none.
 	#Range: 1 ~ 1001
-	badlandsPyramidMaxChunkDistance = 20
+	badlandsPyramidMaxChunkDistance = 10
 	#
 	# How rare are Nether Pyramids in Nether.
 	# 1 for spawning in most chunks and 1001 for none.

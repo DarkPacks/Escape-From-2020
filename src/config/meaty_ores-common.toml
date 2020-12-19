@@ -1,0 +1,13 @@
+
+#Meaty Ore Spawn Settings
+["Meaty Ore Spawn Settings"]
+	#Debris Blocks Placed
+	meaty_ore_debris_blocks_placed = ["minecraft:dirt", "minecraft:cobblestone", "minecraft:dirt", "minecraft:cobblestone", "minecraft:coarse_dirt", "minecraft:podzol", "minecraft:coarse_dirt", "minecraft:coarse_dirt"]
+	#Meaty Ore Spawn Dimension Blacklist
+	meaty_ore_dimensions = []
+	#Main Block Placed
+	meaty_ore_main_blocks_placed = ["diregoo:gooblock", "diregoo:gooblockterrain"]
+	#Meaty Ore Spawn Chance, 1:X (random chance per player tick), Bigger Numbers = Less Frequent. Keep it Sensible!
+	#Range: > 1
+	meaty_ore_chance = 7500
+

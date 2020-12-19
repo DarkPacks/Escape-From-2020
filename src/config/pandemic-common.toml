@@ -2,16 +2,16 @@
 entities = ["minecraft:bee", "minecraft:blaze", "minecraft:cave_spider", "minecraft:creeper", "minecraft:drowned", "minecraft:elder_guardian", "minecraft:ender_dragon", "minecraft:enderman", "minecraft:endermite", "minecraft:evoker", "minecraft:ghast", "minecraft:giant", "minecraft:guardian", "minecraft:hoglin", "minecraft:husk", "minecraft:illusioner", "minecraft:iron_golem", "minecraft:lightning_bolt", "minecraft:llama", "minecraft:magma_cube", "minecraft:panda", "minecraft:phantom", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:pillager", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:ravager", "minecraft:shulker", "minecraft:silverfish", "minecraft:skeleton", "minecraft:slime", "minecraft:spider", "minecraft:stray", "minecraft:strider", "minecraft:trader_llama", "minecraft:vex", "minecraft:villager", "minecraft:vindicator", "minecraft:wandering_trader", "minecraft:witch", "minecraft:wither", "minecraft:wither_skeleton", "minecraft:wolf", "minecraft:zoglin", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:zombified_piglin", "goopers:gooper", "hornets:hornet"]
 #Defines the chance on hit if the disease should be applied. 0 = 0%, 1 = 100% chance
 #Range: 0.0 ~ 1.0
-applyChance = 0.05
+applyChance = 0.02
 #Defines the maximum radius in which blocks might get placed.
 #Range: 2 ~ 200
 maxRadius = 5
 #Defines the chance per tick a configured block might get placed.
 #Range: 0.001 ~ 1.0
-chancePerTick = 0.04
+chancePerTick = 0.01
 #Defines the minimum ticks between two block placements
 #Range: 0 ~ 200000
-tickDelay = 10
+tickDelay = 40
 #Define the blocks it'll place at random. Each entry is weighted the same. Block will be randomly chosen.
 placeableBlocks = ["diregoo:gooblock", "diregoo:gooblockterrain"]
 

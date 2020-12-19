@@ -74,13 +74,13 @@
 			# 
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			stoneIglooMaxChunkDistance = 20
+			stoneIglooMaxChunkDistance = 15
 			#
 			# How rare are Grassy Igloos in Plains and Forests.
 			# 
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			grassyIglooMaxChunkDistance = 20
+			grassyIglooMaxChunkDistance = 15
 			#
 			# Add Stone Igloos to modded biomes that are
 			# most likely Giant Tree Taiga variants.
@@ -112,7 +112,7 @@
 			# 
 			# 1 for spawning in most chunks and 1001 for no spawn.
 			#Range: 1 ~ 1001
-			jungleFortressMaxChunkDistance = 32
+			jungleFortressMaxChunkDistance = 20
 			#
 			# Add Jungle Fortress to modded jungle biomes.
 			addJungleFortressToModdedBiomes = true

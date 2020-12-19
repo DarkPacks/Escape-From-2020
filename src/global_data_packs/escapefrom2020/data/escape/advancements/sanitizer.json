@@ -1,0 +1,29 @@
+{
+  "parent": "escape:goovid",
+  "display": {
+    "icon": {
+      "item": "pandemic:sanitizer"
+    },
+    "title": {
+      "translate": "Sanitize!"
+    },
+    "description": {
+      "translate": "You might catch the GooVID when out exploring. If you do, make sure you use Sanitizer to remove it!"
+    },
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pandemic:sanitizer"
+          }
+        ]
+      }
+    }
+  }
+}

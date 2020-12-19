@@ -7,7 +7,7 @@
 	showConsoleIDS = false
 	#Prevent a whole mods' mobs from burning just by specifying the modid. Comma separated and quoted list
 	#Default: "iceandfire"
-	mods = ["iceandfire"]
+	mods = ["iceandfire", "whisperwoods"]
 	#If selected the rest of the config is pointless. Default: true
 	noMobsBurn = true
 

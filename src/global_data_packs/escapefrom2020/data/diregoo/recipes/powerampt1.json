@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pgp",
+    "rar",
+    "pgp"
+  ],
+  "key": {
+    "p": {
+      "tag": "forge:ingots/copper"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "a": {
+      "item": "minecraft:glass"
+    },
+    "g": {
+      "item": "diregoo:antigoodust"
+    }
+  },
+  "result": {
+    "item": "diregoo:powerampt1"
+  }
+}

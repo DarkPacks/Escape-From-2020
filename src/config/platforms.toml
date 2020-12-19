@@ -1,9 +1,3 @@
-#When enabled the amount of snow/sand built up on platforms will change with the weather
-#Regardless of setting you can still manually place sand/snow, and remove it with a shovel
-"Environment Reactive" = true
-#When enabled walking on platforms will disturb the collected snow/sand
-#Regardless of setting you can still manually place sand/snow, and remove it with a shovel
-"Entity Reactive" = true
 
 #Craft Output Control
 [crafting]
@@ -24,4 +18,31 @@
 	"'Compressed' Block Multiplier" = 4
 	#Range: 1 ~ 16
 	Rise = 4
+
+#Platform Dust Covering Options
+[covering]
+	#1 in x chance sand will passively accumulate
+	#Disabled when set to zero, or when 'isEnvironmentReactive' is disabled
+	#Range: 0 ~ 1000
+	chanceSand = 4
+	#1 in x chance sand will accumulate during a storm
+	#Disabled when set to zero, or when 'isEnvironmentReactive' is disabled
+	#Range: 0 ~ 1000
+	chanceSandStorm = 3
+	#1 in x chance snow will accumulate while snowing
+	#Disabled when set to zero, or when 'isEnvironmentReactive' is disabled
+	#Range: 0 ~ 1000
+	chanceSnowStorm = 3
+	#When enabled walking on platforms will disturb the collected snow/sand
+	#Regardless of setting you can still remove layers by right clicking with a shovel
+	isEntityReactive = true
+	#1 in x chance rain will wash away dust layers
+	#Disabled when set to zero, or when 'isEnvironmentReactive' is disabled
+	#Range: 0 ~ 1000
+	chanceRainWash = 3
+	#Enables the manual placement of sand, snow, and gravel via sneak place
+	#Other blocks are supported as long as the extend FallingBlock and use Material.SAND
+	canManuallyAdd = true
+	#When enabled the amount of snow/sand built up on platforms will change with the weather
+	isEnvironmentReactive = true
 

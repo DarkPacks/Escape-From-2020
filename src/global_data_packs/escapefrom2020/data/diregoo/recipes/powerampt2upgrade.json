@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "pap",
+    " g ",
+    "p p"
+  ],
+  "key": {
+    "p": {
+      "tag": "forge:ingots/copper"
+    },
+    "a": {
+      "tag": "forge:gems/diamond"
+    },
+    "g": {
+      "item": "diregoo:powerampt1"
+    }
+  },
+  "result": {
+    "item": "diregoo:powerampt2"
+  }
+}

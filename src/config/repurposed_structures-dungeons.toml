@@ -77,22 +77,22 @@
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 2 ~ 255
-		desertDungeonMinHeight = 2
+		desertDungeonMinHeight = 50
 		#
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 2 ~ 255
-		mushroomDungeonMinHeight = 2
+		mushroomDungeonMinHeight = 50
 		#
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 2 ~ 255
-		badlandsDungeonMinHeight = 2
+		badlandsDungeonMinHeight = 50
 		#
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 2 ~ 255
-		darkForestDungeonMinHeight = 2
+		darkForestDungeonMinHeight = 50
 		#
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
@@ -102,17 +102,17 @@
 		# Minimum Y height that this dungeon can spawn at. Default is 3.
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 3 ~ 255
-		oceanDungeonMinHeight = 3
+		oceanDungeonMinHeight = 50
 		#
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 2 ~ 255
-		snowDungeonMinHeight = 2
+		snowDungeonMinHeight = 50
 		#
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 2 ~ 255
-		swampDungeonMinHeight = 2
+		swampDungeonMinHeight = 50
 		#
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
@@ -122,7 +122,7 @@
 		# Minimum Y height that this dungeon can spawn at. Default is 2.
 		# Note: The dungeon will spawn between min and max y height set in config.
 		#Range: 2 ~ 255
-		jungleDungeonMinHeight = 2
+		jungleDungeonMinHeight = 50
 
 	[Dungeons.AttemptsPerChunk]
 		#
@@ -131,42 +131,42 @@
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		jungleDungeonAttemptsPerChunk = 8
+		jungleDungeonAttemptsPerChunk = 10
 		#
 		# Replace vanilla dungeon in Mushroom biomes with Mushroom themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		mushroomDungeonAttemptsPerChunk = 8
+		mushroomDungeonAttemptsPerChunk = 10
 		#
 		# Replace vanilla dungeon in Dark Forest biomes with Dark Forest themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		darkForestDungeonAttemptsPerChunk = 8
+		darkForestDungeonAttemptsPerChunk = 10
 		#
 		# Replace vanilla dungeon in Desert biomes with Desert themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		desertDungeonAttemptsPerChunk = 8
+		desertDungeonAttemptsPerChunk = 10
 		#
 		# Replace vanilla dungeon in icy/snow biomes with icy/snow themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		snowDungeonAttemptsPerChunk = 8
+		snowDungeonAttemptsPerChunk = 10
 		#
 		# Replace vanilla dungeon in Badlands biomes with Badlands themed dungeon.
 		# How often dungeons will attempt to spawn per chunk.
 		#  0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		# Note: Vanilla Dungeons will spawn again when this is set to 0.
 		#Range: 0 ~ 1000
-		badlandsDungeonAttemptsPerChunk = 8
+		badlandsDungeonAttemptsPerChunk = 10
 		#
 		# Add ocean themed dungeon to ocean biomes. These will spawn on
 		# the ocean's floor and inside water filled caves and ravines.
