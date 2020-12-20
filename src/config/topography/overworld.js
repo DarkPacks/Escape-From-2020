@@ -54,8 +54,6 @@ function buildChunkGenerator(seed, biomeRegistry) {
 				false
 			);
 		},
-		seed,
-		164,
-		48
-	).setSeaLevel(63);
+		seed
+	)
 }
