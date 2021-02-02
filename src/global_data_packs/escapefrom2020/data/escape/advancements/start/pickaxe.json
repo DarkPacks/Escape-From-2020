@@ -1,0 +1,33 @@
+{
+  "parent": "escape:start/root",
+  "display": {
+    "icon": {
+      "item": "silentgear:pickaxe"
+    },
+    "title": {
+      "translate": "Pickaxe!"
+    },
+    "description": {
+      "translate": "Make pickaxe, not warcraft"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/blueprint_book"
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "silentgear:pickaxe"
+          }
+        ]
+      }
+    }
+  }
+}

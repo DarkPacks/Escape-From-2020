@@ -8,7 +8,7 @@
 	#Range: 1 ~ 32
 	explosion_size_charged = 7
 	#Gooper Blocks Placed
-	gooper_blocks_placed = ["diregoo:gooblock", "diregoo:gooblock", "minecraft:cake", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "minecraft:fire", "minecraft:fire", "diregoo:gooblockpoison"]
+	gooper_blocks_placed = ["diregoo:gooblock", "diregoo:gooblock", "minecraft:cake", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "minecraft:slime", "diregoo:gooblockpoison"]
 	#Charged Gooper Blocks Placed
 	charged_gooper_blocks_placed = ["diregoo:gooblock"]
 

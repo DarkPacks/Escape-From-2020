@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "powah:charged_snowball"
+    },
+    "title": {
+      "translate": "Power up"
+    },
+    "description": {
+      "translate": "Tech tree"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/red_concrete.png"
+  },
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

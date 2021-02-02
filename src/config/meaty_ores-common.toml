@@ -6,8 +6,8 @@
 	#Meaty Ore Spawn Dimension Blacklist
 	meaty_ore_dimensions = []
 	#Main Block Placed
-	meaty_ore_main_blocks_placed = ["diregoo:gooblock", "diregoo:gooblockterrain"]
+	meaty_ore_main_blocks_placed = ["diregoo:gooblock", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "minecraft:cake", "minecraft:fire", "diregoo:gooblockpoison", "minecraft:slime"]
 	#Meaty Ore Spawn Chance, 1:X (random chance per player tick), Bigger Numbers = Less Frequent. Keep it Sensible!
 	#Range: > 1
-	meaty_ore_chance = 7500
+	meaty_ore_chance = 12500
 

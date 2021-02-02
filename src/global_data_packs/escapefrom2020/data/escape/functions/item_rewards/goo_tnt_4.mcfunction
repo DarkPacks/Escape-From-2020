@@ -1,0 +1,1 @@
+give @p diregoo:gntblockt4 1

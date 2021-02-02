@@ -1,0 +1,33 @@
+{
+  "parent": "escape:goo/blue_goo",
+  "display": {
+    "icon": {
+      "item": "diregoo:gooscanner"
+    },
+    "title": {
+      "translate": "Goo Scanner"
+    },
+    "description": {
+      "translate": "Goo Scanner finds goo"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/goo_detector"
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diregoo:gooscanner"
+          }
+        ]
+      }
+    }
+  }
+}

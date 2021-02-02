@@ -16,5 +16,10 @@
       "amount": 4
     },
     "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "onjoin": true,
+    "result": "deny"
   }
 ]

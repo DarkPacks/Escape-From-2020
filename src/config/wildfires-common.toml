@@ -1,12 +1,14 @@
 
 #Wildfire Spawn Settings
 ["Wildfire Spawn Settings"]
+	#Whitelist for Ignition Block types
+	wildfire_ignition_blocks = []
 	#Wildfire Spawn Chance on Flammable Blocks
 	#Range: > 1
-	wildfire_chance = 5
+	wildfire_chance = 15
 	#Wildfire Spawn Chance on Non-Flammable Blocks
 	#Range: > 1
-	wildfire_chance_non_flam = 15
+	wildfire_chance_non_flam = 30
 	#Wildfire Spawn Dimension Blacklist
 	wildfire_dimensions = []
 

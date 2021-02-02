@@ -1,0 +1,2 @@
+gamerule doWeatherCycle false
+gamerule naturalRegeneration false

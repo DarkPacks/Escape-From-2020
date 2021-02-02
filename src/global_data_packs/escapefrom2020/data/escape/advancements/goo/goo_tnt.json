@@ -1,0 +1,33 @@
+{
+  "parent": "escape:goo/blue_goo",
+  "display": {
+    "icon": {
+      "item": "diregoo:gntblockt1"
+    },
+    "title": {
+      "translate": "Goo TNT"
+    },
+    "description": {
+      "translate": "Goo TNT removes goo"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/flint_and_steel"
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diregoo:gntblockt1"
+          }
+        ]
+      }
+    }
+  }
+}

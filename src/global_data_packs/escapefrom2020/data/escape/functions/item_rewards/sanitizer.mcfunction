@@ -1,0 +1,1 @@
+give @p pandemic:sanitizer

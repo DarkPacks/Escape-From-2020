@@ -1,0 +1,33 @@
+{
+  "parent": "escape:travel/root",
+  "display": {
+    "icon": {
+      "item": "paraglider:paraglider"
+    },
+    "title": {
+      "translate": "Glider"
+    },
+    "description": {
+      "translate": "Traveling to other islands is tought! Use a Paraglider"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "rewards": {
+    "experience": 50
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "paraglider:paraglider"
+          }
+        ]
+      }
+    }
+  }
+}

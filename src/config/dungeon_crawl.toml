@@ -2,7 +2,7 @@
 #General Settings
 [general]
 	#Enables the dungeon crawl tools.
-	enable_tools = false
+	enable_tools = true
 	#This option will make pre-2.0.0 worlds playable with version 2.0.0 and later.
 	enable_dummy_pieces = false
 	#Enables extended debug logging to help detecting potential errors. This is enabled by default.
@@ -26,7 +26,7 @@
 	#Range: 0.01 ~ 1.0
 	shield_probability = 0.25
 	#Set this to true if you want to prevent that the last layer of each dungeon will contain nether content.
-	no_nether_stuff = false
+	no_nether_stuff = true
 	#If set to true, the dungeon generation will ignore the biome blacklist and generate dungeons in any overworld biome.
 	ignore_overworld_blacklist = true
 	#Determines if vanilla spawners or modified spawners with armor, weapons etc... should be used.

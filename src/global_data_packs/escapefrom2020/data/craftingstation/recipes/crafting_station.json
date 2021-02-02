@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "crafting_station",
+  "ingredients": [
+    {
+      "tag": "forge:workbench"
+    }
+  ],
+  "result": {
+    "item": "craftingstation:crafting_station"
+  }
+}

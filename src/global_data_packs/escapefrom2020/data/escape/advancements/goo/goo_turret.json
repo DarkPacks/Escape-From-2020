@@ -1,0 +1,33 @@
+{
+  "parent": "escape:goo/blue_goo",
+  "display": {
+    "icon": {
+      "item": "diregoo:turretblock"
+    },
+    "title": {
+      "translate": "Goo Turret"
+    },
+    "description": {
+      "translate": "Use the Turret to shoot the goo! Make sure to load it with a Core and a Power Amp"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/goonade"
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diregoo:turretblock"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "escape:goo/focus_crystal2",
+  "display": {
+    "icon": {
+      "item": "diregoo:focust3"
+    },
+    "title": {
+      "translate": "Focus 3"
+    },
+    "description": {
+      "translate": "Upgrade machine power"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/focus_crystal3"
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diregoo:focust3"
+          }
+        ]
+      }
+    }
+  }
+}

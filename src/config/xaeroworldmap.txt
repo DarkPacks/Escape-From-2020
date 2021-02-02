@@ -9,7 +9,7 @@ updateChunks:true
 terrainSlopes:2
 terrainDepth:true
 footsteps:true
-flowers:true
+flowers:false
 compression:false
 coordinates:true
 biomeColorsVanillaMode:false
@@ -17,5 +17,6 @@ waypoints:true
 renderArrow:true
 displayZoom:true
 ignoreHeightmaps:false
-waypointScale:1.0
-globalVersion:85
+worldmapWaypointsScale:1.0
+openMapAnimation:true
+globalVersion:99

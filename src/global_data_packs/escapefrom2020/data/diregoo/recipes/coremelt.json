@@ -10,10 +10,10 @@
       "item": "diregoo:antigoodust"
     },
     "g": {
-      "item": "minecraft:glass"
+      "tag": "forge:glass_panes"
     },
     "i": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:nuggets/tin"
     }
   },
   "result": {

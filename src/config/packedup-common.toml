@@ -1,5 +1,5 @@
 #Can backpacks be put inside other backpacks?
-allowBagInBag = true
+allowBagInBag = false
 #How many layers deep can you place backpacks inside backpacks? -1 for infinite, 0 is the same as setting 'allowBagInBag' to false.
 #Range: -1 ~ 5
 maxBagInBagLayer = -1

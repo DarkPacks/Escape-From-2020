@@ -1,0 +1,33 @@
+{
+  "parent": "escape:goo/blue_goo",
+  "display": {
+    "icon": {
+      "item": "diregoo:focust1"
+    },
+    "title": {
+      "translate": "Focus 1"
+    },
+    "description": {
+      "translate": "Upgrade machine power"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/focus_crystal1"
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diregoo:focust1"
+          }
+        ]
+      }
+    }
+  }
+}

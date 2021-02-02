@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carved_pumpkin"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jack_o_lantern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hay_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:damaged_anvil"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_campfire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diregoo:coremelt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diregoo:powerampt1"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diregoo:powerampt2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diregoo:powerampt3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diregoo:powerampt4"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplefarming:blackberry_pie"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplefarming:hotdog"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "roughtweaks:medkit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "roughtweaks:medkit_enchanted"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mining_helmet:mining_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mining_helmet:mining_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pandemic:sanitizer"
+        },
+        {
+          "type": "item",
+          "name": "waddles:adelie_penguin_spawn_egg",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:0,display:{Name:'{\"text\":\"Darkosto\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+give @p diregoo:focust1 1

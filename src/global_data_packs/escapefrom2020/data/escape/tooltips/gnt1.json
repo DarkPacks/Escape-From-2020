@@ -1,0 +1,14 @@
+{
+  "items": [
+    "diregoo:gntblockt1"
+  ],
+  "tooltips": [
+    {
+      "text": "Restores Goo Infested blocks to their original state"
+    },
+    {
+      "text": "Has a 5 block radius",
+      "color": "#ecbf00"
+    }
+  ]
+}

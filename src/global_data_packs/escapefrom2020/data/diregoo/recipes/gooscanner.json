@@ -7,13 +7,13 @@
   ],
   "key": {
     "a": {
-      "item": "diregoo:antigoodust"
+      "tag": "forge:plates/invar"
     },
     "e": {
-      "item": "minecraft:ender_eye"
+      "item": "diregoo:goodetector"
     },
     "g": {
-      "item": "minecraft:glass"
+      "tag": "forge:glass_panes"
     }
   },
   "result": {

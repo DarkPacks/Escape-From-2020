@@ -10,7 +10,7 @@
 	  "item": "powah:dielectric_paste"
 	},
 	"i": {
-	  "item": "thermal:copper_nugget"
+	  "tag": "forge:nuggets/copper"
 	}
   },
   "result": {

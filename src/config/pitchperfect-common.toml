@@ -1,7 +1,0 @@
-
-#General settings
-[general]
-	#
-	#Display in console the pitch?
-	debug_pitch = false
-

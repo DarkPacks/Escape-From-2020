@@ -6,13 +6,13 @@
 	playerSpreadRange = 100
 	#The maximum number of goo blocks that can cause a blockchange per chunk in a single tick. Lowering this number will slow the spread of goo and may improve performance.
 	#Range: 1 ~ 10000
-	maxBlockChanges = 200
+	maxBlockChanges = 125
 	#The maximum number of chunks that can be queue'd in the server processing queue. Probably don't need to mess with this unless you know what you're doing and why.
 	#Range: 1 ~ 500
 	maxChunkQueue = 100
 	#The chance for Frozen Goo to melt on block tick. The lower this number, the longer it stays frozen.
 	#Range: 0 ~ 100
-	freezeMeltChance = 50
+	freezeMeltChance = 20
 	#Do we batch the goo spread? Should increase performance.
 	batchSpread = true
 	#Force extra goo ticks. This is the delay (in ticks) before goo is forced to spread - the higher the number the slower the spread. -1 disables this. Only use this if you want goo to spread even faster than normal
@@ -35,13 +35,13 @@
 		canSpreadGoo = true
 		#The chance that goo will spread when it randomly ticks. The lower this is, the slower goo spreads.
 		#Range: 1 ~ 100
-		spreadChanceGoo = 100
+		spreadChanceGoo = 75
 
 	#Terrain Goo Specific Settings
 	[goo_spread.terrain_goo]
 		#The chance that terrain goo will spread when it randomly ticks. The lower this is, the slower goo spreads.
 		#Range: 1 ~ 100
-		spreadChanceTerrain = 100
+		spreadChanceTerrain = 75
 		#Can the terrain goo spread. Set the false to disable only terrain goo spreading.
 		canSpreadTerrain = true
 

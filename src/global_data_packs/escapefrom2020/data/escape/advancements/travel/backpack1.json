@@ -1,0 +1,33 @@
+{
+  "parent": "escape:travel/root",
+  "display": {
+    "icon": {
+      "item": "packedup:basicbackpack"
+    },
+    "title": {
+      "translate": "Pack it up!"
+    },
+    "description": {
+      "translate": "Make backpack. Put back in curios slot. Use button to open. Profit"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "packedup:basicbackpack"
+          }
+        ]
+      }
+    }
+  }
+}

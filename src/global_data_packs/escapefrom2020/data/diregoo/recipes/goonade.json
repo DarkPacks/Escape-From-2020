@@ -13,11 +13,11 @@
       "item": "minecraft:gunpowder"
     },
     "i": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:nuggets/iron"
     }
   },
   "result": {
     "item": "diregoo:goonade",
-    "count": 4
+    "count": 16
   }
 }

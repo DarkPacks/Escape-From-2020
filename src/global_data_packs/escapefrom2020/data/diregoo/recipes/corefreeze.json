@@ -10,10 +10,10 @@
       "item": "diregoo:antigoodust"
     },
     "g": {
-      "item": "minecraft:ice"
+      "item": "minecraft:snow_block"
     },
     "i": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:nuggets/iron"
     }
   },
   "result": {

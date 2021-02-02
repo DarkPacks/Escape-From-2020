@@ -1,0 +1,1 @@
+give @p diregoo:corefreeze 1

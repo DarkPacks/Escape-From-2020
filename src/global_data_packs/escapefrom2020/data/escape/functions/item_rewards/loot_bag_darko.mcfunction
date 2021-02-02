@@ -1,0 +1,1 @@
+give @p treasurebags:treasure_bag{silentlib.LootContainer:{LootTable:"escape:chests/loot_bags",BagType:"treasurebags:darko_bag"}}

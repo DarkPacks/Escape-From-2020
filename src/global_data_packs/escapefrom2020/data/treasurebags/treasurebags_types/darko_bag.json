@@ -1,0 +1,14 @@
+{
+  "displayName": {
+    "translate": "DarkoBag"
+  },
+  "lootTable": "escape:chests/loot_bags",
+  "rarity": "uncommon",
+  "bagColor": "#101010",
+  "bagOverlayColor": "#ecbf00",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": [
+    "boss",
+    "hostile"
+  ]
+}

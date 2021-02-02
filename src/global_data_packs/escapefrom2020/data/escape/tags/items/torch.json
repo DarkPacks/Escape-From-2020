@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:torch",
+    "silentgear:stone_torch",
+    "undergarden:shard_torch",
+    "minecraft:jack_o_lantern"
+  ]
+}

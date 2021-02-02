@@ -6,6 +6,9 @@
 
 	#####################################################################################
 	[simpletomb.tomb]
+		#When searching for a grave location, this is the maximum range to check
+		#Range: 2 ~ 128
+		search_range = 8
 		#If true, write to the game log (server log) every time a tomb is placed
 		log = true
 		#If true, send a player chat message every time a tomb is placed
@@ -13,6 +16,9 @@
 		#The radius in which extra bonus items should be hunted for and collected when a grave is spawned; set to zero (0) to disable
 		#Range: 0 ~ 16
 		extra_items = 2
+		#When searching for a grave location, this is the maximum height to check
+		#Range: 2 ~ 128
+		search_height = 128
 		#Whether to handle player death at all (false will disable almost the entire mod)
 		enabled = true
 

@@ -1,19 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "pap",
+    " a ",
     " g ",
-    "p p"
+    "pdp"
   ],
   "key": {
     "p": {
-      "tag": "forge:ingots/tin"
+      "tag": "forge:plates/tin"
     },
     "a": {
       "tag": "forge:nether_stars"
     },
     "g": {
       "item": "diregoo:powerampt3"
+    },
+    "d": {
+      "item": "diregoo:antigoodust"
     }
   },
   "result": {

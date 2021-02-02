@@ -1,0 +1,34 @@
+{
+  "parent": "escape:goo/blue_goo",
+  "display": {
+    "icon": {
+      "item": "diregoo:antigoopaste"
+    },
+    "title": {
+      "translate": "Anti Goothpaste"
+    },
+    "description": {
+      "translate": "Use this to brush your teeth. Or, to protech a single"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/loot_bag_darko",
+    "experience": 50
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diregoo:antigoopaste"
+          }
+        ]
+      }
+    }
+  }
+}

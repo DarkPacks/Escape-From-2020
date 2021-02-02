@@ -1,0 +1,1 @@
+give @p minecraft:flint_and_steel 1

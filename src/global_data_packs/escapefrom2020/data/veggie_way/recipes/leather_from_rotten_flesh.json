@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
+}

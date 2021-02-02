@@ -1,0 +1,1 @@
+give @p silentgear:blueprint_book

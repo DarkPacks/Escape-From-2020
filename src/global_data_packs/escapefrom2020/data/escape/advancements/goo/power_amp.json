@@ -1,0 +1,33 @@
+{
+  "parent": "escape:goo/goo_turret",
+  "display": {
+    "icon": {
+      "item": "diregoo:powerampt4"
+    },
+    "title": {
+      "translate": "Power Amp"
+    },
+    "description": {
+      "translate": "Power amp to power your amp. Or the Goo mod stuff too"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/power_amp"
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "escape:power_amp"
+          }
+        ]
+      }
+    }
+  }
+}

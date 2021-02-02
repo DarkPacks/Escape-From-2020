@@ -1,0 +1,33 @@
+{
+  "parent": "escape:tech/root",
+  "display": {
+    "icon": {
+      "item": "powah:furnator_starter"
+    },
+    "title": {
+      "translate": "Power Generator"
+    },
+    "description": {
+      "translate": "Furnator makes power"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "escape:item_rewards/powah_book"
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powah:furnator_starter"
+          }
+        ]
+      }
+    }
+  }
+}

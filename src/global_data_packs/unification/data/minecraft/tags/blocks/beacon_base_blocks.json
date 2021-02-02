@@ -1,0 +1,27 @@
+{
+  "replace": true,
+  "values": [
+    "thermal:copper_block",
+    "thermal:tin_block",
+    "thermal:silver_block",
+    "thermal:nickel_block",
+    "thermal:bronze_block",
+    "thermal:electrum_block",
+    "thermal:invar_block",
+    "thermal:constantan_block",
+    "thermal:signalum_block",
+    "thermal:lumium_block",
+    "thermal:enderium_block",
+    "powah:energized_steel_block",
+    "powah:blazing_crystal_block",
+    "powah:niotic_crystal_block",
+    "powah:spirited_crystal_block",
+    "powah:nitro_crystal_block",
+    "powah:uraninite_block",
+    "minecraft:gold_block",
+    "minecraft:iron_block",
+    "minecraft:diamond_block",
+    "minecraft:emerald_block",
+    "minecraft:netherite_block"
+  ]
+}

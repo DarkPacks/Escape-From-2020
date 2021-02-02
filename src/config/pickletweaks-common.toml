@@ -29,7 +29,7 @@
 	#Ex: ["minecraft:stone_shovel=minecraft:stick@0.5"]
 	overrides = []
 	#Should Crafting Grid Tool Repairing be enabled?
-	enabled = true
+	enabled = false
 	#Enabling this makes it so custom repair materials override the default ones for the tools specified.
 	overrideMode = false
 
@@ -44,13 +44,13 @@
 	#Dark Glass enabled?
 	darkGlass = true
 	#Enable Emerald tools and armor?
-	emeraldGear = true
+	emeraldGear = false
 	#Colored Cobblestone enabled?
 	coloredCobblestone = true
 	#Watering Can enabled?
 	wateringCan = true
 	#Enable Paxels?
-	paxels = true
+	paxels = false
 	#Enable Night Vision Goggles?
 	nightVisionGoggles = true
 	#Enable Magnet?
@@ -58,7 +58,7 @@
 	#Coal and Charcoal Piece enabled?
 	coalPiece = true
 	#Enable Flint tools and armor?
-	flintGear = true
+	flintGear = false
 	#Enable right click crop harvesting?
 	rightClickHarvest = true
 	#Smooth Glowstone enabled?
@@ -67,4 +67,8 @@
 	apples = true
 	#Enable Meshes?
 	meshes = true
+	#Enable Sickles?
+	sickles = true
+	#Enable Scythes?
+	scythes = true
 

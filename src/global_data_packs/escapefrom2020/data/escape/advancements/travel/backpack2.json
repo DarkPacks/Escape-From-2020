@@ -1,0 +1,33 @@
+{
+  "parent": "escape:travel/backpack1",
+  "display": {
+    "icon": {
+      "item": "packedup:diamondbackpack"
+    },
+    "title": {
+      "translate": "Pack it up part 2"
+    },
+    "description": {
+      "translate": "Upgrade backpack"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "packedup:diamondbackpack"
+          }
+        ]
+      }
+    }
+  }
+}

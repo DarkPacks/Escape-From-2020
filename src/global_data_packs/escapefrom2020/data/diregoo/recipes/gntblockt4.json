@@ -1,25 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "aaa",
-    "ctf",
-    "apa"
+    " g ",
+    "gtg",
+    " f "
   ],
   "key": {
-    "c": {
-      "item": "diregoo:coremelt"
-    },
-    "f": {
-      "item": "diregoo:corefreeze"
-    },
-    "a": {
-      "item": "diregoo:antigoodust"
+    "g": {
+      "item": "diregoo:gooresidue"
     },
     "t": {
-      "item": "minecraft:tnt"
+      "item": "diregoo:gntblockt3"
     },
-    "p": {
-      "item": "diregoo:powerampt4"
+    "f": {
+      "item": "diregoo:focust1"
     }
   },
   "result": {

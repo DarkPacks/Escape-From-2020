@@ -13,11 +13,11 @@
       "item": "minecraft:gunpowder"
     },
     "i": {
-      "tag": "forge:ingots/iron"
+      "item": "minecraft:snowball"
     }
   },
   "result": {
     "item": "diregoo:goonadefreeze",
-    "count": 4
+    "count": 16
   }
 }
