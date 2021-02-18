@@ -349,7 +349,7 @@
             "block": "minecraft:lectern"
           },
           {
-            "random": 4,
+            "random": 5,
             "block": "minecraft:composter"
           },
           {
@@ -369,23 +369,19 @@
             "block": "minecraft:crafting_table"
           },
           {
-            "random": 48,
+            "random": 43,
             "block": "minecraft:air"
           },
           {
-            "random": 4,
+            "random": 7,
             "block": "minecraft:cobweb"
           },
           {
-            "random": 4,
-            "block": "create:black_seat"
-          },
-          {
-            "random": 4,
+            "random": 2,
             "block": "alchemistry:evaporator"
           },
           {
-            "random": 4,
+            "random": 1,
             "block": "thermal:fluid_cell_frame"
           },
           {
@@ -393,8 +389,56 @@
             "block": "minecraft:smithing_table"
           },
           {
-            "random": 4,
+            "random": 2,
             "block": "byg:sythian_crafting_table"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:oak_nightstand_9"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:oak_nightstand_10"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:oak_nightstand_11"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:spruce_nightstand_9"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:spruce_nightstand_10"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:spruce_nightstand_11"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:birch_nightstand_9"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:birch_nightstand_10"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:birch_nightstand_11"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:jungle_nightstand_9"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:jungle_nightstand_10"
+          },
+          {
+            "random": 1,
+            "block": "mcwfurnitures:jungle_nightstand_11"
           }
         ]
       },

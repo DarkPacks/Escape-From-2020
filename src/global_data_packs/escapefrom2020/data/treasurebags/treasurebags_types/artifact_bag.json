@@ -1,0 +1,11 @@
+{
+  "displayName": {
+    "translate": "Artifact Bag"
+  },
+  "lootTable": "escape:chests/artifact_bags",
+  "rarity": "uncommon",
+  "bagColor": "#FFD700",
+  "bagOverlayColor": "#000000",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

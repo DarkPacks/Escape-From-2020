@@ -21,5 +21,55 @@
     "mob": "minecraft:zombie",
     "onjoin": true,
     "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:cow",
+      "minecraft:chicken",
+      "minecraft:pig",
+      "minecraft:sheep"
+    ],
+    "block": [
+      "minecraft:grass_block",
+      "byg:overgrown_stone",
+      "byg:meadow_grass_block",
+      "byg:overgrown_dacite"
+    ],
+    "minlight": 9,
+    "result": "allow"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:cow",
+      "minecraft:chicken",
+      "minecraft:pig",
+      "minecraft:sheep"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:mooshroom"
+    ],
+    "biome": [
+      "minecraft:mushroom_fields"
+    ],
+    "block": [
+      "minecraft:mycelium",
+      "minecraft:red_mushroom_block",
+      "minecraft:brown_mushroom_block"
+    ],
+    "minlight": 9,
+    "result": "allow"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "minecraft:mooshroom"
+    ],
+    "result": "deny"
   }
 ]

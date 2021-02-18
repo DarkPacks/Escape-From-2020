@@ -4,6 +4,7 @@ updateNotification:false
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
+debugEntityIcons:false
 #INGAME SETTINGS (DO NOT EDIT!)
 minimap:true
 caveMaps:1
@@ -34,7 +35,7 @@ hostileColor:4
 itemsColor:12
 otherColor:5
 otherTeamColor:-1
-tamedMobsColor:-1
+tamedMobsColor:0
 mapSafeMode:false
 minimapOpacity:100.0
 waypointsIngameScale:1.0
@@ -44,7 +45,8 @@ waypointsClampDepth:0.0
 antiAliasing:true
 blockColours:0
 lighting:true
-dotsScale:2.0
+dotsSize:2
+dotsStyle:0
 headsScale:1.0
 dotNameScale:1.0
 compassOverWaypoints:false
@@ -54,15 +56,15 @@ showFlowers:true
 keepWaypointNames:false
 waypointsDistance:0.0
 waypointsDistanceMin:0.0
-waypointTp:tp @s
+waypointTPCommand:/tp @s
 arrowScale:1.8000000715255737
 arrowColour:4
 smoothDots:true
 playerIcons:1
-mobIcons:0
-hostileIcons:0
+mobIcons:1
+hostileIcons:1
 tamedIcons:3
-heightLimit:20
+heightLimit:15
 worldMap:true
 terrainDepth:true
 terrainSlopes:2
@@ -105,6 +107,7 @@ lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
+uiScale:0
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

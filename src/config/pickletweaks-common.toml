@@ -41,6 +41,8 @@
 
 #Disable features.
 [Features]
+	#Enable Sickles?
+	sickles = true
 	#Dark Glass enabled?
 	darkGlass = true
 	#Enable Emerald tools and armor?
@@ -57,6 +59,8 @@
 	magnet = true
 	#Coal and Charcoal Piece enabled?
 	coalPiece = true
+	#Enable Scythes?
+	scythes = true
 	#Enable Flint tools and armor?
 	flintGear = false
 	#Enable right click crop harvesting?
@@ -67,8 +71,4 @@
 	apples = true
 	#Enable Meshes?
 	meshes = true
-	#Enable Sickles?
-	sickles = true
-	#Enable Scythes?
-	scythes = true
 

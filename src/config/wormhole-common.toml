@@ -17,6 +17,21 @@
 	advancedDeviceTargetCount = 5
 
 ["Power Consumption"]
+	#How much energy is drained when an entity is teleported multiplied by the distance?
+	#Range: 0.0 ~ 1000000.0
+	distancePowerDrain = 0.5
+	#How much power will be drained when an entity is teleported?
+	#Range: 0 ~ 1000000
+	travelPowerDrain = 100
+	#How much power will a portal drain per tick when idle?
+	#Range: 0 ~ 1000000
+	idlePowerDrain = 10
+	#How much energy is drained when an entity is teleported to another dimension?
+	#Range: 0 ~ 1000000
+	dimensionPowerDrain = 400
+	#How much idle power does the portal drain per block of its size?
+	#Range: 0.0 ~ 1000000.0
+	sizePowerDrain = 0.1
 	#Power consumption will be calculated as follows:
 	#Idle power drain = idlePowerDrain + portal size * sizePowerDrain
 	#Interdimensional teleport power drain = travelPowerDrain + dimensionPowerDrain
@@ -24,32 +39,17 @@
 	#
 	#If false, a portal will not require power.
 	requirePower = true
-	#How much power will a portal drain per tick when idle?
-	#Range: 0 ~ 1000000
-	idlePowerDrain = 10
-	#How much idle power does the portal drain per block of its size?
-	#Range: 0.0 ~ 1000000.0
-	sizePowerDrain = 0.1
-	#How much power will be drained when an entity is teleported?
-	#Range: 0 ~ 1000000
-	travelPowerDrain = 100
-	#How much energy is drained when an entity is teleported multiplied by the distance?
-	#Range: 0.0 ~ 1000000.0
-	distancePowerDrain = 0.5
-	#How much energy is drained when an entity is teleported to another dimension?
-	#Range: 0 ~ 1000000
-	dimensionPowerDrain = 400
 
 ["Energy Cells"]
-	#The amount of energy the portal stabilizer can store.
-	#Range: 1 ~ 1000000
-	stabilizerEnergyCapacity = 1000
 	#The amount of energy the basic energy cell can store.
 	#Range: 1 ~ 1000000
 	basicEnergyCellCapacity = 2000
 	#The amount of energy the advanced energy cell can store.
 	#Range: 1 ~ 1000000
 	advancedEnergyCellCapacity = 10000
+	#The amount of energy the portal stabilizer can store.
+	#Range: 1 ~ 1000000
+	stabilizerEnergyCapacity = 1000
 
 ["Target Cells"]
 	#The number of targets the portal stabilizer can store.
@@ -63,13 +63,13 @@
 	advancedTargetCellCapacity = 8
 
 [Generators]
+	#In what area (coalGeneratorRange^3) should the coal generator send energy?
+	#Range: 1 ~ 4
+	coalGeneratorRange = 2
 	#How much energy does the coal generator generate per tick?
 	#Range: 1 ~ 1000000
 	coalGeneratorPower = 10
 	#How much energy can the coal generator store?
 	#Range: 1 ~ 1000000
 	coalGeneratorCapacity = 5000
-	#In what area (coalGeneratorRange^3) should the coal generator send energy?
-	#Range: 1 ~ 4
-	coalGeneratorRange = 2
 

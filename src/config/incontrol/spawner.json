@@ -1,0 +1,167 @@
+[
+  {
+    "mob": "minecraft:squid",
+    "persecond": 5,
+    "attempts": 200,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": true,
+      "norestrictions": true,
+      "minlight": 0,
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 200
+    }
+  },
+  {
+    "mob": "minecraft:cod",
+    "persecond": 5,
+    "attempts": 200,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": true,
+      "norestrictions": true,
+      "minlight": 0,
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 200
+    }
+  },
+  {
+    "mob": "minecraft:pufferfish",
+    "persecond": 5,
+    "attempts": 200,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": true,
+      "norestrictions": true,
+      "minlight": 0,
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 200
+    }
+  },
+  {
+    "mob": "minecraft:salmon",
+    "persecond": 5,
+    "attempts": 200,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": true,
+      "norestrictions": true,
+      "minlight": 0,
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 200
+    }
+  },
+  {
+    "mob": "minecraft:cow",
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 15
+    }
+  },
+  {
+    "mob": "minecraft:pig",
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 15
+    }
+  },
+  {
+    "mob": "minecraft:chicken",
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 15
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 15
+    }
+  },
+  {
+    "mob": "minecraft:mooshroom",
+    "persecond": 0.2,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 72,
+      "minheight": 45,
+      "maxheight": 175,
+      "maxthis": 15
+    }
+  }
+]

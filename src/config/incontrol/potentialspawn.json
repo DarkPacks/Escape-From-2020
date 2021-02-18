@@ -1,9 +1,5 @@
 [
   {
-    "mob": "minecraft:zombie",
-    "result": "deny"
-  },
-  {
     "mobs": [
       {
         "mob": "froglins:froglins",

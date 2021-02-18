@@ -6,7 +6,7 @@
 0 : "",
 1 : "minecraft:campfire",
 2 : "",
-3 : "",
+3 : "delivery:bulletin_board",
 4 : "",
 5 : "",
 6 : "",

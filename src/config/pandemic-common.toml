@@ -5,7 +5,7 @@ entities = ["minecraft:bee", "minecraft:blaze", "minecraft:cave_spider", "minecr
 applyChance = 0.002
 #Defines the maximum radius in which blocks might get placed.
 #Range: 2 ~ 200
-maxRadius = 5
+maxRadius = 3
 #Defines the chance per tick a configured block might get placed.
 #Range: 0.001 ~ 1.0
 chancePerTick = 0.01

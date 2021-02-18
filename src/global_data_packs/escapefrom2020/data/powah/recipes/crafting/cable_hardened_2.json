@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "kck",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "powah:capacitor_hardened"
+    },
+    "k": {
+      "item": "powah:steel_energized"
+    }
+  },
+  "result": {
+    "item": "powah:energy_cable_hardened",
+    "count": 12
+  }
+}

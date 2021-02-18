@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ici",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "powah:capacitor_basic"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "powah:energy_cable_basic",
+    "count": 12
+  }
+}

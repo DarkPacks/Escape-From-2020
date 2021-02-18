@@ -1,0 +1,680 @@
+{
+  "tasks": [
+    {
+      "id": "11ac08fb-5093-407e-a4be-f56ce9d72bea",
+      "name": "Day 1",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 0,
+      "maxLevel": 0,
+      "forced": false,
+      "experience": 10,
+      "money": 50,
+      "items": [
+        {
+          "item": "minecraft:blast_furnace",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "pandemic:sanitizer",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "11ac08fb-5093-407e-a4be-f56ce9d72beb",
+      "name": "Day 1",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 0,
+      "maxLevel": 0,
+      "forced": false,
+      "experience": 10,
+      "money": 50,
+      "items": [
+        {
+          "item": "minecraft:smoker",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "pandemic:sanitizer",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "8b3e00d8-a18c-4b12-be75-c92d1f3adda3",
+      "name": "Day 2",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 1,
+      "maxLevel": 1,
+      "forced": false,
+      "experience": 20,
+      "money": 35,
+      "items": [
+        {
+          "item": "minecraft:string",
+          "amount": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/artifact_bags\",BagType:\"treasurebags:artifact_bag\"}}",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "8b3e00d8-a18c-4b12-be75-c92d1f3adda4",
+      "name": "Day 2",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 1,
+      "maxLevel": 1,
+      "forced": false,
+      "experience": 20,
+      "money": 35,
+      "items": [
+        {
+          "item": "minecraft:bone",
+          "amount": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/artifact_bags\",BagType:\"treasurebags:artifact_bag\"}}",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "8b3e00d8-a18c-4b12-be75-c92d1f3adda5",
+      "name": "Day 2",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 1,
+      "maxLevel": 1,
+      "forced": false,
+      "experience": 20,
+      "money": 35,
+      "items": [
+        {
+          "item": "minecraft:rotten_flesh",
+          "amount": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/artifact_bags\",BagType:\"treasurebags:artifact_bag\"}}",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "b7653a90-d9ac-4d6a-9b80-2bb4c14753bd",
+      "name": "Day 3",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 2,
+      "maxLevel": 2,
+      "forced": false,
+      "experience": 30,
+      "money": 50,
+      "items": [
+        {
+          "item": "tconstruct:seared_brick",
+          "amount": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "nbt": "{silentlib.LootContainer:{LootTable:\"treasurebags:bags/ingots\",BagType:\"treasurebags:ingots\"}}",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "e2a5f78b-8558-425e-88d9-6a37d93fdb4e",
+      "name": "Day 4",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 3,
+      "maxLevel": 3,
+      "forced": false,
+      "experience": 40,
+      "money": 50,
+      "items": [
+        {
+          "tag": "escape:seafood",
+          "amount": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "solpotato:lunchbox",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "e3bdd0d1-5da3-49f4-b317-d569f134efc9",
+      "name": "Day 5",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 4,
+      "maxLevel": 4,
+      "forced": false,
+      "experience": 50,
+      "money": 75,
+      "items": [
+        {
+          "item": "minecraft:iron_ingot",
+          "amount": 4
+        },
+        {
+          "item": "thermal:copper_ingot",
+          "amount": 4
+        },
+        {
+          "item": "thermal:tin_ingot",
+          "amount": 4
+        },
+        {
+          "item": "thermal:nickel_ingot",
+          "amount": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "thermal:bronze_ingot",
+          "amount": 4
+        },
+        {
+          "item": "thermal:invar_ingot",
+          "amount": 4
+        },
+        {
+          "item": "thermal:electrum_ingot",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "e84203d1-042c-4293-aa27-b684361bc6be",
+      "name": "Day 6",
+      "description": "Do this quest",
+      "contractorName": "Satan",
+      "skin": "",
+      "profession": "",
+      "minLevel": 5,
+      "maxLevel": 5,
+      "forced": false,
+      "experience": 60,
+      "money": 100,
+      "items": [
+        {
+          "item": "roughtweaks:salve",
+          "amount": 2
+        },
+        {
+          "item": "roughtweaks:plaster",
+          "amount": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "roughtweaks:medkit",
+          "amount": 1
+        },
+        {
+          "item": "roughtweaks:medkit_enchanted",
+          "amount": 1
+        },
+        {
+          "item": "delivery:computer",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "d0d80cb5-87ea-4b5b-94f1-7c58d4a282e1",
+      "name": "Liquid Test",
+      "description": "liquid",
+      "contractorName": "Drakosto",
+      "skin": "",
+      "profession": "Modpack Dev.",
+      "minLevel": 999,
+      "maxLevel": 999,
+      "forced": false,
+      "experience": 22,
+      "money": 55,
+      "fluids": [
+        {
+          "fluid": "thermal:crude_oil",
+          "amount": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "id": "d9cdf74d-0411-491b-83ac-f4450ecf3922",
+      "name": "testing1",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:sushi",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "9108571d-e13b-4592-8a6c-3fecb01e8bcd",
+      "name": "testing2",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:olive_oil",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "8fa6bed3-5b26-4c53-864a-72047e907e27",
+      "name": "testing3",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:jam",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "ee93419e-ea25-4ca6-bf92-883a282821d7",
+      "name": "testing4",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "minecraft:leather_horse_armor",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "521953d7-dd92-47a4-b931-d0d7d39a07c9",
+      "name": "testing5",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "tag": "escape:horse_armor",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"treasurebags:bags/dungeon\",BagType:\"treasurebags:dungeon\"}}"
+        }
+      ]
+    },
+    {
+      "id": "dbff13af-91df-4aef-a3ed-cec98b4bc1e5",
+      "name": "testing8",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "minecraft:spider_eye",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "9b4bea10-5e50-4629-b599-e2306b5af4d7",
+      "name": "testing9",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "minecraft:rotten_flesh",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "2f49029b-520c-4c02-a1a4-14bd68ec8e07",
+      "name": "testing10",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "tag": "minecraft:music_discs",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "68a96a4b-01c4-403d-bb48-317c3e50bdd4",
+      "name": "testing22",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:fried_calamari",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "1b052aaf-faab-4908-b6f1-9db6e0bcd7c2",
+      "name": "testing23",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:vinegar",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "dd02be26-0c57-4c12-b805-2c080d340965",
+      "name": "testing24",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:apple_pie",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "279fa537-8a89-41b5-b8da-c0f2f20bce22",
+      "name": "testing25",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:apricot_pie",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "2a20f7ac-1dc2-4dd1-9311-0b201b57beeb",
+      "name": "testing26",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:cornbread",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "22e7fb0f-e810-4e76-b763-47efccbaefa1",
+      "name": "testing27",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:cherry_pie",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    },
+    {
+      "id": "416cea32-c9c1-41c6-a733-f8ee7c6237d6",
+      "name": "testing28",
+      "description": "",
+      "contractorName": "Darkosto",
+      "skin": "",
+      "profession": "",
+      "minLevel": 6,
+      "maxLevel": 100,
+      "forced": false,
+      "experience": 0,
+      "money": 50,
+      "items": [
+        {
+          "item": "simplefarming:chicken_curry",
+          "amount": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "treasurebags:treasure_bag",
+          "amount": 1,
+          "nbt": "{silentlib.LootContainer:{LootTable:\"escape:chests/loot_bags\",BagType:\"treasurebags:darko_bag\"}}"
+        }
+      ]
+    }
+  ]
+}

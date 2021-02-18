@@ -15,9 +15,6 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "rewards": {
-    "function": "escape:item_rewards/sanitizer"
-  },
   "criteria": {
     "example": {
       "trigger": "minecraft:inventory_changed",

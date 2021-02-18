@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"   ",
+	"kck",
+	"   "
+  ],
+  "key": {
+	"c": {
+	  "item": "powah:capacitor_blazing"
+	},
+	"k": {
+	  "item": "powah:crystal_blazing"
+	}
+  },
+  "result": {
+	"item": "powah:energy_cable_blazing",
+	"count": 12
+  }
+}

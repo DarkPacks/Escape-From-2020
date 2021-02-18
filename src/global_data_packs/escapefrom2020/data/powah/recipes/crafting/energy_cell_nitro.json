@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"bnb",
+	"cdc",
+	"bnb"
+  ],
+  "key": {
+	"c": {
+	  "item": "powah:energy_cell_spirited"
+	},
+	"n": {
+	  "item": "powah:capacitor_nitro"
+	},
+	"b": {
+	  "item": "powah:crystal_nitro"
+	},
+	"d": {
+	  "item": "thermal:machine_frame"
+	}
+  },
+  "result": {
+	"item": "powah:energy_cell_nitro"
+  }
+}

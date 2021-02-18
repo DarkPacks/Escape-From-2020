@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "modid": "tconstruct",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "tconstruct:molten_iron",
+      "amount": 288
+    },
+    {
+      "name": "tconstruct:molten_nickel",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_invar",
+    "amount": 432
+  },
+  "temperature": 900
+}

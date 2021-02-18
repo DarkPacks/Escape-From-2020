@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "kck",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "powah:capacitor_spirited"
+    },
+    "k": {
+      "item": "powah:crystal_spirited"
+    }
+  },
+  "result": {
+    "item": "powah:energy_cable_spirited",
+    "count": 12
+  }
+}
