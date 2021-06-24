@@ -8,7 +8,7 @@
       "translate": "Goo Turret"
     },
     "description": {
-      "translate": "Use the Turret to shoot the goo! Make sure to load it with a Core and a Power Amp"
+      "translate": "Craft the Goo Turret. This machine is used to protect your base from spreading goo. When powered, equipped with a Core, and Power Amplifier it will remove any Goo Blocks within range "
     },
     "frame": "task",
     "show_toast": false,

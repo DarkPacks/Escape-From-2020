@@ -163,5 +163,15 @@
       "maxheight": 175,
       "maxthis": 15
     }
+  },
+  {
+    "mobs": [
+      {
+        "mob": "froglins:froglins",
+        "weight": 50,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
   }
 ]

@@ -5,10 +5,10 @@
       "item": "diregoo:focust1"
     },
     "title": {
-      "translate": "Focus 1"
+      "translate": "Basic Focus Crystal"
     },
     "description": {
-      "translate": "Upgrade machine power"
+      "translate": "Craft a Basic Focus Crystal. Focus Crystals are used to increase the power machines or items"
     },
     "frame": "task",
     "show_toast": false,

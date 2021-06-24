@@ -8,7 +8,7 @@
       "translate": "Blue Goo Brr"
     },
     "description": {
-      "translate": "Blue goo eats everything!"
+      "translate": "Obtain Goo Residue. When you break a block of Green or Blue Goo it will drop Goo Residue. This is a valuable item to fight against the Goo"
     },
     "frame": "task",
     "show_toast": false,

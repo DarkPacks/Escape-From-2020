@@ -1,9 +1,11 @@
 {
   "replace": false,
   "values": [
-    "minecraft:torch",
-    "silentgear:stone_torch",
-    "undergarden:shard_torch",
-    "minecraft:jack_o_lantern"
+    {
+      "id": "undergarden:shard_torch",
+      "required": false
+    },
+    "minecraft:jack_o_lantern",
+    "minecraft:torch"
   ]
 }

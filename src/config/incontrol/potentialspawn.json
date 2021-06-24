@@ -1,12 +1,1 @@
-[
-  {
-    "mobs": [
-      {
-        "mob": "froglins:froglins",
-        "weight": 50,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      }
-    ]
-  }
-]
+[]

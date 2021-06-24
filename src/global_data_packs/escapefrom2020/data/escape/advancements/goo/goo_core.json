@@ -5,10 +5,10 @@
       "item": "diregoo:coremelt"
     },
     "title": {
-      "translate": "Goo Gun Good Kid"
+      "translate": "I'M MELTING!!!"
     },
     "description": {
-      "translate": "Shoot the goo!"
+      "translate": "Craft the Melting Core. The Melting Core can be added to items or machines to revert them back to their original block"
     },
     "frame": "task",
     "show_toast": false,

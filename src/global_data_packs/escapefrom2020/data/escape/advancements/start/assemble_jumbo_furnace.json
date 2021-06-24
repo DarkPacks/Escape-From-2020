@@ -1,0 +1,20 @@
+{
+  "parent": "escape:start/root",
+  "display": {
+    "frame": "task",
+    "icon": {
+      "item": "jumbofurnace:jumbo_furnace"
+    },
+    "title": {
+      "translate": "jumbofurnace.advancements.story.assemble_jumbo_furnace.title"
+    },
+    "description": {
+      "translate": "jumbofurnace.advancements.story.assemble_jumbo_furnace.description"
+    }
+  },
+  "criteria": {
+    "assemble_jumbo_furnace": {
+      "trigger": "jumbofurnace:assemble_jumbo_furnace"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+
+#Advancements Tracker (Client configuration)
+[general]
+	#Range: 1 ~ 5
+	maxNumberOfTrackedAdvancements = 3
+	#List of default tracked advancements, mostly used by mod packs.
+	trackedAdvancements = [""]
+
+[screenshots]
+	screenshotEnabled = true
+	#Range: 0 ~ 10000
+	screenshotDelay = 700
+
+[gui]
+
+	[gui.overview]
+		overviewEnabled = true
+
+	[gui.widget]
+		widgetEnabled = true
+		#Range: 0.0 ~ 1.0
+		widgetHeight = 0.45
+		#Range: 0.0 ~ 1.0
+		widgetWidth = 0.3
+		#Range: 0.0 ~ 1.0
+		widgetTop = 0.0
+		#Range: 0.0 ~ 1.0
+		widgetLeft = 0.0
+		#Range: 1 ~ 8
+		widgetMaxLinesForDescription = 4
+
+[Debug]
+	#Changed the default log level to get more output.
+	logLevel = "info"
+
+[cache]
+	trackedAdvancementsRemote = [""]
+	trackedAdvancementsLocal = ["escape:travel/backpack3", "escape:travel/glider"]
+

@@ -5,10 +5,10 @@
       "item": "diregoo:gntblockt4"
     },
     "title": {
-      "translate": "Goo TNT Extreme"
+      "translate": "Extreme GNT"
     },
     "description": {
-      "translate": "Goo TNT removes goo more extrim"
+      "translate": "Craft the Extreme GNT. This is the largest GNT for Goo removal. Light it with Flint and Steel"
     },
     "frame": "task",
     "show_toast": false,

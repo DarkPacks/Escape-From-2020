@@ -1,0 +1,27 @@
+{
+  "parent": "escape:start/obtain_jumbo_furnace",
+  "display": {
+    "icon": {
+      "item": "jumbofurnace:orthodimensional_hyperfurnace"
+    },
+    "title": {
+      "translate": "jumbofurnace.advancements.story.obtain_orthodimensional_hyperfurnace.title"
+    },
+    "description": {
+      "translate": "jumbofurnace.advancements.story.obtain_orthodimensional_hyperfurnace.description"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "obtain_orthodimensional_hyperfurnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "jumbofurnace:multiprocessing_upgrade"
+          }
+        ]
+      }
+    }
+  }
+}

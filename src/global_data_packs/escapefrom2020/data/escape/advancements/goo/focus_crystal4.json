@@ -5,10 +5,10 @@
       "item": "diregoo:focust4"
     },
     "title": {
-      "translate": "Focus 4"
+      "translate": "Extreme Focus Crystal"
     },
     "description": {
-      "translate": "Upgrade machine power"
+      "translate": "Craft an Extreme Focus Crystal. This Crystal will increase the power output of the items it is used with to maximum"
     },
     "frame": "task",
     "show_toast": false,

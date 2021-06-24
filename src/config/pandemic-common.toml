@@ -5,24 +5,24 @@ entities = ["minecraft:bee", "minecraft:blaze", "minecraft:cave_spider", "minecr
 applyChance = 0.002
 #Defines the maximum radius in which blocks might get placed.
 #Range: 2 ~ 200
-maxRadius = 3
+maxRadius = 2
 #Defines the chance per tick a configured block might get placed.
 #Range: 0.001 ~ 1.0
-chancePerTick = 0.01
+chancePerTick = 0.001
 #Defines the minimum ticks between two block placements
 #Range: 0 ~ 200000
-tickDelay = 200
+tickDelay = 600
 #Define the blocks it'll place at random. Each entry is weighted the same. Block will be randomly chosen.
 placeableBlocks = ["diregoo:gooblock", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "diregoo:gooblockterrain", "minecraft:air", "minecraft:air", "minecraft:air", "minecraft:slime", "minecraft:slime", "diregoo:gooblockpoison"]
 #Defines the chance on hit if the disease should be applied. !!This means if the mob attacking you HAS THE DISEASE!! 0 = 0%, 1 = 100% chance
 #Range: 0.0 ~ 1.0
-applyChanceDisease = 0.25
+applyChanceDisease = 0.15
 #Defines the chance that a mob will spawn with GooVID-20 when it gets spawned. 0 = 0%, 1 = 100% chance
 #Range: 0.0 ~ 1.0
-applySpawnChance = 0.05
+applySpawnChance = 0.03
 #Defines the radius in blocks (spherically) that a mob or player will spread GooVID-20 to others nearby.
 #Range: 0.0 ~ 16.0
-spreadRadius = 4
+spreadRadius = 2.0
 #Defines the chance that a mob will spread GooVID-20 to others nearby per second (20 ticks). 0 = 0%, 1 = 100% chance
 #Range: 0.0 ~ 1.0
 spreadSecondChance = 0.005

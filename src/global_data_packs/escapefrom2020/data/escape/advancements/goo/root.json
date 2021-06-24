@@ -7,7 +7,7 @@
       "translate": "The Goo Will Eat You"
     },
     "description": {
-      "translate": "I got slimed!"
+      "translate": "Goo is slowly consuming the world. Green Goo will consume any blocks it touches while Blue Goo will consume anything including"
     },
     "frame": "challenge",
     "show_toast": false,

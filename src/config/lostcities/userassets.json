@@ -13,7 +13,7 @@
       },
       {
         "factor": 1,
-        "value": "minecraft:spider"
+        "value": "goopers:gooper"
       }
     ]
   },
@@ -28,6 +28,10 @@
       {
         "factor": 1,
         "value": "minecraft:skeleton"
+      },
+      {
+        "factor": 1,
+        "value": "goopers:gooper"
       }
     ]
   },
@@ -394,51 +398,51 @@
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:oak_nightstand_9"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:oak_nightstand_10"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:oak_nightstand_11"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:spruce_nightstand_9"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:spruce_nightstand_10"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:spruce_nightstand_11"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:birch_nightstand_9"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:birch_nightstand_10"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:birch_nightstand_11"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:jungle_nightstand_9"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:jungle_nightstand_10"
+            "block": "minecraft:air"
           },
           {
             "random": 1,
-            "block": "mcwfurnitures:jungle_nightstand_11"
+            "block": "minecraft:air"
           }
         ]
       },

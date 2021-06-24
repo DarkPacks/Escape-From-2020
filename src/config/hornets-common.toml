@@ -20,5 +20,5 @@
 	#Range: > 1
 	hornet_min_spawn_size = 1
 	#Hornet Spawn Dimension Blacklist
-	hornet_dimensions = []
+	hornet_dimensions = ["minecraft:the_end", "undergard:undergarden"]
 

@@ -1,7 +1,7 @@
 
 [general]
 	#If the player mobs should be able to open doors.
-	"Open Doors" = false
+	"Open Doors" = true
 	#If true the player mobs will attack all players
 	#If false they will ignore players with the same name as themself
 	"Attack Twin" = true
@@ -26,7 +26,7 @@
 	#Chance that a player mob will spawn as a baby.
 	#Set to -1 to disable.
 	#Range: -1.0 ~ 1.0
-	"Baby Spawn Chance" = 0.1
+	"Baby Spawn Chance" = -1
 	#The minimum size of the group of mobs that will spawn.
 	#Range: > 1
 	"Min Spawn Size" = 4

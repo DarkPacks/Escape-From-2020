@@ -5,10 +5,10 @@
       "item": "paraglider:paraglider"
     },
     "title": {
-      "translate": "Glider"
+      "translate": "Paraglider"
     },
     "description": {
-      "translate": "Traveling to other islands is tought! Use a Paraglider"
+      "translate": "Craft the Paraglider. Use it to travel to other islands. Be careful, it will use Stamina. Stamina can be increased by consuming Stamina Vessels"
     },
     "frame": "task",
     "show_toast": false,

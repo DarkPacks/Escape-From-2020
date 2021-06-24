@@ -5,10 +5,10 @@
       "item": "diregoo:gooscanner"
     },
     "title": {
-      "translate": "Goo Scanner"
+      "translate": "Scan it!"
     },
     "description": {
-      "translate": "Goo Scanner finds goo"
+      "translate": "Craft the Goo Scanner. This item will identify Goo blocks within range"
     },
     "frame": "task",
     "show_toast": false,

@@ -1,0 +1,87 @@
+[
+  {
+    "type": "city",
+    "name": "Debug",
+    "dimension": "minecraft:overworld",
+    "chunkx": 0,
+    "chunkz": 0,
+    "radius": 500,
+    "buildings": [
+      {
+        "building": "building1",
+        "chunkx": 0,
+        "chunkz": 0
+      },
+      {
+        "building": "building2",
+        "chunkx": 2,
+        "chunkz": 0
+      },
+      {
+        "building": "building3",
+        "chunkx": 0,
+        "chunkz": 2
+      },
+      {
+        "building": "building4",
+        "chunkx": 2,
+        "chunkz": 2
+      },
+      {
+        "building": "building5",
+        "chunkx": 4,
+        "chunkz": 0
+      },
+      {
+        "multibuilding": "multi1",
+        "chunkx": 0,
+        "chunkz": 5
+      },
+      {
+        "multibuilding": "multi2",
+        "chunkx": 3,
+        "chunkz": 5
+      },
+      {
+        "multibuilding": "multi3",
+        "chunkx": 6,
+        "chunkz": 5
+      },
+      {
+        "multibuilding": "multi4",
+        "chunkx": 9,
+        "chunkz": 5
+      },
+      {
+        "multibuilding": "multi5",
+        "chunkx": 12,
+        "chunkz": 5
+      },
+      {
+        "multibuilding": "library",
+        "chunkx": 3,
+        "chunkz": 8
+      },
+      {
+        "multibuilding": "center",
+        "chunkx": 6,
+        "chunkz": 8
+      },
+      {
+        "multibuilding": "townhall",
+        "chunkx": 9,
+        "chunkz": 8
+      },
+      {
+        "multibuilding": "shopping",
+        "chunkx": 12,
+        "chunkz": 8
+      },
+      {
+        "multibuilding": "shopping_open",
+        "chunkx": 3,
+        "chunkz": 11
+      }
+    ]
+  }
+]

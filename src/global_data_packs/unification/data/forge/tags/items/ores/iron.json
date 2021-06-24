@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "undergarden:iron_ore",
+    "minecraft:iron_ore"
+  ]
+}

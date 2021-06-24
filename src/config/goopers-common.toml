@@ -18,7 +18,7 @@
 	#Range: > 1
 	gooper_min_spawn_size = 1
 	#Gooper Spawn Dimension Blacklist
-	gooper_dimensions = []
+	gooper_dimensions = ["minecraft:the_end", "undergard:undergarden"]
 	#Charged Gooper Spawn Blocks
 	charged_gooper_spawn_blocks = ["diregoo:gooblockterrain"]
 	#Gooper Spawn Group Maximum Size

@@ -1,9 +1,9 @@
 
 [General]
 	#If enabled, burns all hostile mobs around the campfire within the radius whenever a player places a campfire.
-	burnHostilesAroundWhenPlaced = true
+	burnHostilesAroundWhenPlaced = false
 	#When enabled, the mob spawners spawns are also disabled when a campfire is within the radius.
-	preventMobSpawnerSpawns = false
+	preventMobSpawnerSpawns = true
 	#By default set to 0.5. This means that if the radius is 16, the campfire burns prior mobs in a radius of 8.
 	#Range: 0.0 ~ 1.0
 	burnHostilesRadiusModifier = 0.5

@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -2.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 0.8
+              }
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -4.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "sushigocrafting:seaweed"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{silentlib.LootContainer:{LootTable:\"escape:chests/sea_bags\",BagType:\"treasurebags:sea_bag\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "n": 2,
+                "p": 0.20,
+                "type": "minecraft:binomial"
+              }
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "n": 2,
+                "p": 0.20,
+                "type": "minecraft:binomial"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+            {
+              "function": "minecraft:limit_count",
+              "limit": {
+                "max": 2
+              }
+            }
+          ],
+          "name": "froglins:froglin_eye"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

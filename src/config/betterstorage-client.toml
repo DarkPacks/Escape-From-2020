@@ -1,0 +1,11 @@
+
+#General settings.
+[General]
+	#If disabled, doesn't show cardboard box contents in their tooltips.
+	cardboardBoxShowContents = true
+
+	#Rendering settings.
+	[General.Rendering]
+		#Allow the use of OBJ models for some blocks.
+		useObjModels = true
+

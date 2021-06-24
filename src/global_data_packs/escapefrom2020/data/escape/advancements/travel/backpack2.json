@@ -5,10 +5,10 @@
       "item": "packedup:diamondbackpack"
     },
     "title": {
-      "translate": "Pack it up part 2"
+      "translate": "Pack Mule!"
     },
     "description": {
-      "translate": "Upgrade backpack"
+      "translate": "Craft the Diamond Backpack. This upgrade will allow more inventory slots on the go!"
     },
     "frame": "task",
     "show_toast": false,

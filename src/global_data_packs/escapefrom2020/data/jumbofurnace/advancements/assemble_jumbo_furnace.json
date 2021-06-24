@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "display": {
+    "frame": "goal",
+    "icon": {
+      "item": "jumbofurnace:jumbo_furnace"
+    },
+    "title": {
+      "translate": "jumbofurnace.advancements.story.assemble_jumbo_furnace.title"
+    },
+    "description": {
+      "translate": "jumbofurnace.advancements.story.assemble_jumbo_furnace.description"
+    }
+  }
+}

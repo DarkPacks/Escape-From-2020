@@ -8,7 +8,7 @@
       "translate": "Goo Gun Good Kid"
     },
     "description": {
-      "translate": "Shoot the goo!"
+      "translate": "Craft the Goo Remover. This item, when powered, will allow you to remove Goo by firing a projectile"
     },
     "frame": "task",
     "show_toast": false,

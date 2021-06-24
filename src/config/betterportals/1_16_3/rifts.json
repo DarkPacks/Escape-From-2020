@@ -18,13 +18,39 @@
         "alpha": "FC"
       },
       "minY": 100,
-      "maxY": 110,
+      "maxY": 170,
       "playerTeleportedMinY": 105,
       "playerTeleportedMaxY": 120,
       "spawnChance": 0.02,
       "spawnDimension": "minecraft:overworld",
       "targetDimension": "minecraft:the_nether",
       "spawnPlatformBlock": "minecraft:netherrack"
+    },
+    {
+      "blockSelector": {
+        "entries": {
+          "undergarden:smog_vent": 0.05,
+          "undergarden:cracked_shiverstone_bricks": 0.05,
+          "undergarden:tremblecrust": 0.1,
+          "undergarden:shiverstone": 0.1,
+          "undergarden:depthrock": 0.7
+        },
+        "defaultBlock": "minecraft:air"
+      },
+      "fluidColor": {
+        "red": "32",
+        "green": "C5",
+        "blue": "35",
+        "alpha": "FC"
+      },
+      "minY": 20,
+      "maxY": 80,
+      "playerTeleportedMinY": 105,
+      "playerTeleportedMaxY": 120,
+      "spawnChance": 0.02,
+      "spawnDimension": "minecraft:the_nether",
+      "targetDimension": "undergarden:undergarden",
+      "spawnPlatformBlock": "undergarden:depthrock"
     }
   ]
 }

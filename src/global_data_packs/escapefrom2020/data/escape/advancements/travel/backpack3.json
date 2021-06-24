@@ -5,10 +5,10 @@
       "item": "packedup:obsidianbackpack"
     },
     "title": {
-      "translate": "Pack it up part 3"
+      "translate": "BACKPACK BACKPACK!"
     },
     "description": {
-      "translate": "Upgrade backpack again"
+      "translate": "Craft the Obsidian Backpack. This is the maximum sized backpack you can obtain"
     },
     "frame": "task",
     "show_toast": false,

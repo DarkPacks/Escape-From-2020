@@ -8,7 +8,7 @@
       "translate": "Pack it up!"
     },
     "description": {
-      "translate": "Make backpack. Put back in curios slot. Use button to open. Profit"
+      "translate": "Craft the Backpack. You can either use it from your inventory or place it in your back slot in the curios inventory slot (Open by pressing the icon next to your helmet armor slot)"
     },
     "frame": "task",
     "show_toast": false,

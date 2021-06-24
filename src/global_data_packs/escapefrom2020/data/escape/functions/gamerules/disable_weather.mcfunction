@@ -1,2 +1,3 @@
 gamerule doWeatherCycle false
 gamerule naturalRegeneration false
+gamerule doInsomnia false

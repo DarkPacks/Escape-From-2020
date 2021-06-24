@@ -8,7 +8,7 @@
       "translate": "Anti Goothpaste"
     },
     "description": {
-      "translate": "Use this to brush your teeth. Or, to protech a single"
+      "translate": "Craft AntiGoo Paste. AntiGoo Paste will let you protect a single block from being consumed by the Goo"
     },
     "frame": "task",
     "show_toast": false,

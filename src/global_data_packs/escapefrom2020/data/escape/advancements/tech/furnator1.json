@@ -8,7 +8,7 @@
       "translate": "Power Generator"
     },
     "description": {
-      "translate": "Furnator makes power"
+      "translate": "Craft the Furnator (Starter). The Furnator is a basic power source. It will consume any burnable items and give a small amount of power"
     },
     "frame": "task",
     "show_toast": false,

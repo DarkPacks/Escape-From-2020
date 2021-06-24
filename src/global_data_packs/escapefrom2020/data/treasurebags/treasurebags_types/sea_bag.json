@@ -1,0 +1,12 @@
+{
+  "group": "sea",
+  "displayName": {
+    "translate": "Sea Bag"
+  },
+  "lootTable": "escape:chests/sea_bags",
+  "rarity": "uncommon",
+  "bagColor": "#124494",
+  "bagOverlayColor": "#b6bfcf",
+  "bagStringColor": "#ffffff",
+  "dropsFromGroups": []
+}

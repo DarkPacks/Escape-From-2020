@@ -1,6 +1,23 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
+    "powah:uraninite_ore",
+    "powah:uraninite_ore_poor",
+    "powah:uraninite_ore_dense",
+    "create:copper_ore",
+    "create:zinc_ore",
+    "rftoolsbase:dimensionalshard_end",
+    "rftoolsbase:dimensionalshard_nether",
+    "rftoolsbase:dimensionalshard_overworld",
+    "#forge:ores/coal",
+    "#forge:ores/diamond",
+    "#forge:ores/emerald",
+    "#forge:ores/gold",
+    "#forge:ores/iron",
+    "#forge:ores/lapis",
+    "#forge:ores/redstone",
+    "#forge:ores/quartz",
+    "#forge:ores/netherite_scrap",
     "#forge:ores/apatite",
     "#forge:ores/cinnabar",
     "#forge:ores/copper",
@@ -12,7 +29,13 @@
     "#forge:ores/silver",
     "#forge:ores/sulfur",
     "#forge:ores/tin",
-    "#forge:ores/iron",
-    "#forge:ores/gold"
+    "#forge:ores/cobalt",
+    "#forge:ores/copper",
+    "byg:ametrine_ore",
+    "byg:anthracite_ore",
+    "byg:budding_ametrine_ore",
+    "byg:cryptic_redstone_ore",
+    "byg:lignite_ore",
+    "byg:pendorite_ore"
   ]
 }

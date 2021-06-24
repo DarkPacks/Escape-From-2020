@@ -5,10 +5,10 @@
       "item": "diregoo:gntblockt1"
     },
     "title": {
-      "translate": "Goo TNT"
+      "translate": "Basic GNT"
     },
     "description": {
-      "translate": "Goo TNT removes goo"
+      "translate": "Craft a Basic GNT. This acts as a TNT block for only Goo. Light it with Flint and Steel"
     },
     "frame": "task",
     "show_toast": false,

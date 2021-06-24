@@ -7,6 +7,8 @@
 	#Amount of half hearts sleeping heals. Set to 0 to disable this feature
 	#Range: 0.0 ~ 32767.0
 	sleepHealAmount = 2.0
+	#Set to true if you want to regenerate health without the use of healing items
+	healthRegen = false
 
 #Defines how often you're able to rightclick the item to heal yourself. Set the use count to 0 to disable the item.
 [HealCount]

@@ -125,6 +125,12 @@ registerPreset("overworld", "Enter 2020", "background2", "Time to go!")
         });
 
 
+        //Buddycard Ore
+        OreHelper.addOre(event, function() {
+            //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance
+            return OreHelper.buildVerticalOre(BlockHelper.getState("buddycards:luminis_ore"), OreHelper.BASE_STONE_OVERWORLD, 14, 3, 64, 120, true, 4);
+        });
+
         //Dire's Goo
         OreHelper.addOre(event, function() {
             //block, ruleTest, clusterSize, clusterCount, minHeight, maxHeight, square, chance

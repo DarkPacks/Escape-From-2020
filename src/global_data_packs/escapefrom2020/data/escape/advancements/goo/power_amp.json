@@ -5,10 +5,10 @@
       "item": "diregoo:powerampt4"
     },
     "title": {
-      "translate": "Power Amp"
+      "translate": "GET AMPED!"
     },
     "description": {
-      "translate": "Power amp to power your amp. Or the Goo mod stuff too"
+      "translate": "Craft the Extreme Power Amplifier. This is used in a variety of item or machine slots to increase effectiveness (including range)"
     },
     "frame": "task",
     "show_toast": false,

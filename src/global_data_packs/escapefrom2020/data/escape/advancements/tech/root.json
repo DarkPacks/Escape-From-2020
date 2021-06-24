@@ -4,10 +4,10 @@
       "item": "powah:charged_snowball"
     },
     "title": {
-      "translate": "Power up"
+      "translate": "Power up!"
     },
     "description": {
-      "translate": "Tech tree"
+      "translate": "For all your tech needs!"
     },
     "frame": "challenge",
     "show_toast": false,

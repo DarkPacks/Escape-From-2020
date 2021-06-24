@@ -11,6 +11,22 @@
     "result": "deny"
   },
   {
+    "mob": "minecraft:spider",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:drowned",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:husk",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:phantom",
+    "result": "deny"
+  },
+  {
     "mob": "eyesinthedarkness:eyes",
     "mincount": {
       "amount": 4

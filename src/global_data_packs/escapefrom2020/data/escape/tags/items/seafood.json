@@ -1,10 +1,13 @@
 {
   "replace": false,
   "values": [
+    {
+      "id": "simplefarming:raw_calamari",
+      "required": false
+    },
     "minecraft:cod",
+    "minecraft:pufferfish",
     "minecraft:salmon",
-    "simplefarming:raw_calamari",
-    "minecraft:tropical_fish",
-    "minecraft:pufferfish"
+    "minecraft:tropical_fish"
   ]
 }

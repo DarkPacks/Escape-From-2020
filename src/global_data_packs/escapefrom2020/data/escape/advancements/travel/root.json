@@ -7,7 +7,7 @@
       "translate": "Adventure!"
     },
     "description": {
-      "translate": "Go outside!"
+      "translate": "Be careful out there!"
     },
     "frame": "challenge",
     "show_toast": false,

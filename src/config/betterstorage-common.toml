@@ -1,0 +1,26 @@
+
+#General settings.
+[General]
+	#Number of columns in reinforced chests and lockers.
+	#Range: 9 ~ 13
+	reinforcedColumns = 13
+	#Allow atomation to access the contents of crates.
+	crateAllowAutomation = true
+	#Number of rows in cardboard boxes.
+	#Range: 1 ~ 3
+	cardboardBoxRows = 3
+	#Number of times cardboard boxes can be picked up with items before they break. Use 0 for infinite uses.
+	#Range: > 0
+	cardboardBoxUses = 25
+	#Allow pistons to break cardboard boxes.
+	cardboardBoxPistonBreakable = true
+	#Allow dispensers to place cardboard boxes.
+	cardboardBoxDispenserPlaceable = true
+	#Allow locked blocks to be breakable.
+	lockBreakable = true
+	#Number of buckets that one tank can hold.
+	#Range: > 1
+	tankBuckets = 16
+	#Allow the use of fluid milk
+	useFluidMilk = true
+

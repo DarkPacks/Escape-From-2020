@@ -1,6 +1,9 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
+    "#forge:dusts/glowstone",
+    "#forge:dusts/prismarine",
+    "#forge:dusts/redstone",
     "#forge:dusts/apatite",
     "#forge:dusts/bronze",
     "#forge:dusts/cinnabar",

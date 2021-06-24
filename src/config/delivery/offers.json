@@ -336,6 +336,13 @@
       "amount": 8,
       "price": "50",
       "levelRequirement": 6
+    },
+    {
+      "id": "8c989d19-d3f6-4fdd-b1e6-6147323975a5",
+      "item": "sushigocrafting:seaweed",
+      "amount": 8,
+      "price": "20",
+      "levelRequirement": 6
     }
   ]
 }

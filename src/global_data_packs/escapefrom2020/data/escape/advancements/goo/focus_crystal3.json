@@ -5,10 +5,10 @@
       "item": "diregoo:focust3"
     },
     "title": {
-      "translate": "Focus 3"
+      "translate": "Powerful Focus Crystal"
     },
     "description": {
-      "translate": "Upgrade machine power"
+      "translate": "Craft a Powerful Focus Crystal. This Crystal will further increase the power output of the items it is used with"
     },
     "frame": "task",
     "show_toast": false,

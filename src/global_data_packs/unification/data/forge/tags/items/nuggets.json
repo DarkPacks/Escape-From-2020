@@ -1,8 +1,16 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
-    "#forge:nuggets/gold",
+    "undergarden:cloggrum_nugget",
+    "undergarden:froststeel_nugget",
+    "undergarden:utherium_chunk",
+    "undergarden:regalium_nugget",
+    "undergarden:forgotten_nugget",
+    "create:copper_nugget",
+    "create:zinc_nugget",
+    "create:brass_nugget",
     "#forge:nuggets/iron",
+    "#forge:nuggets/gold",
     "#forge:nuggets/bronze",
     "#forge:nuggets/constantan",
     "#forge:nuggets/copper",
@@ -14,6 +22,17 @@
     "#forge:nuggets/nickel",
     "#forge:nuggets/signalum",
     "#forge:nuggets/silver",
-    "#forge:nuggets/tin"
+    "#forge:nuggets/tin",
+    "#forge:nuggets/copper",
+    "#forge:nuggets/cobalt",
+    "#forge:nuggets/slimesteel",
+    "#forge:nuggets/silicon_bronze",
+    "#forge:nuggets/rose_gold",
+    "#forge:nuggets/pig_iron",
+    "#forge:nuggets/queens_slime",
+    "#forge:nuggets/manyullyn",
+    "#forge:nuggets/hepatizon",
+    "#forge:nuggets/soulsteel",
+    "#forge:nuggets/knightslime"
   ]
 }

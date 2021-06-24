@@ -1,0 +1,21 @@
+
+["Piggy Bank Spawn Settings"]
+	#Min: Minimum Number of Piggy Banks in a Group. MUST BE LOWER THAN MAX!  Default: 1
+	#Range: 1 ~ 64
+	min = 1
+	#Max: Maximum Number of Piggy Banks in a Group. MUST BE HIGHER THAN MIN!  Default: 1
+	#Range: 1 ~ 64
+	max = 1
+	#Spawn Rate: Set weight to 0 to disable. Default: 2. (REFERENCE WEIGHTS: Cows = 8, Pigs and Chickens = 10, Sheep = 12)
+	#Range: 0 ~ 100
+	weight = 4
+
+["Piggy Bank Dimension Settings"]
+	"End Spawning" = true
+	#Dimensions in which Piggy Bank can spawn
+	"Overworld Spawning" = true
+	"Nether Spawning" = true
+
+["Piggy Bank Special Settings"]
+	"Piggy Bank can drop items other than Emeralds and Diamonds" = false
+

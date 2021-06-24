@@ -8,7 +8,7 @@
       "translate": "Don't Eat the Purple Goo"
     },
     "description": {
-      "translate": "Poisoned Goo will remove goo blocks when overtaken"
+      "translate": "Craft the Poison Goo. When this block is consumed by Blue or Green goo it will poison the surrounding blocks and revert them back to their original block"
     },
     "frame": "task",
     "show_toast": false,

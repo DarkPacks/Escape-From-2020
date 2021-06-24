@@ -8,7 +8,7 @@
       "translate": "Frozen to the Core"
     },
     "description": {
-      "translate": "Freezing core temporarily freezes goo"
+      "translate": "Craft the Freezing Core. The Freezing Core can be added to certain items or machines to freeze the Goo blocks. These blocks will temporarily be unable to spread"
     },
     "frame": "task",
     "show_toast": false,

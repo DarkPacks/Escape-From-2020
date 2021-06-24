@@ -1,5 +1,5 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
     "#forge:gears/bronze",
     "#forge:gears/constantan",
