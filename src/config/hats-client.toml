@@ -25,7 +25,7 @@
 	#Range: 0 ~ 2
 	guiMinecraftStyle = 2
 	#Have we shown the GUI tutorial? (Set to true to skip it)
-	shownTutorial = false
+	shownTutorial = true
 	#The time (in ticks) for most of the GUI animations. Set to 1 if you want to practically skip animation.
 	#Range: > 1
 	guiAnimationTime = 10

@@ -485,7 +485,7 @@
       },
       {
         "char": "C",
-        "block": "minecraft:barrel",
+        "block": "minecraft:chest",
         "loot": "chestloot"
       },
       {
