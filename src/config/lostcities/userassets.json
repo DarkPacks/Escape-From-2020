@@ -10,10 +10,6 @@
       {
         "factor": 1,
         "value": "minecraft:skeleton"
-      },
-      {
-        "factor": 1,
-        "value": "goopers:gooper"
       }
     ]
   },
@@ -28,10 +24,6 @@
       {
         "factor": 1,
         "value": "minecraft:skeleton"
-      },
-      {
-        "factor": 1,
-        "value": "goopers:gooper"
       }
     ]
   },

@@ -8,6 +8,6 @@
 	"Text Scale" = 1.0
 	"Gui Y" = 5
 	#Show the the difficulty text
-	"Show Difficulty" = true
+	"Show Difficulty" = false
 	"Gui X" = 5
 

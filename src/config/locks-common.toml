@@ -1,6 +1,6 @@
 #Chance to generate a random lock on every new chest during world generation. Set to 0 to disable
 #Range: 0.0 ~ 1.0
-"Generation Chance" = 0.85
+"Generation Chance" = 0.6
 #Chance to randomly enchant a generated lock during world generation. Set to 0 to disable
 #Range: 0.0 ~ 1.0
 "Generation Enchant Chance" = 0.2

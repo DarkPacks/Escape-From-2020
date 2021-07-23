@@ -16,7 +16,7 @@
 	#Set to -1 to disable.
 	#Range: -1.0 ~ 1.0
 	"Mob Head Drop Chance" = 0.25
-	#The chance to use when spawned if a player mob can pickup items.
+	#The chance of the mob getting the ability to pickup items, it's used on mob spawn.
 	#Set to -1 to disable.
 	#Range: -1.0 ~ 1.0
 	"Pickup Item Chance" = 0.0
@@ -65,7 +65,7 @@
 	#The names need to be separated by a newline.
 	#Names from these links are combined with the named from below
 	#As an example you have Twitch subs in the game by using https://whitelist.gorymoon.se
-	"Name Links" = ["https://whitelist.gorymoon.se/list/RBaEKlLZbgrX39xp0vmdr/minecraft_nl"]
+	"Name Links" = ["https://whitelist.gorymoon.se/list/RBaEKlLZbgrX39xp0vmdr/minecraft_twitch_nl"]
 	#If the names in the whitelist should be used for the player mobs.
 	"Use Whitelist" = true
 

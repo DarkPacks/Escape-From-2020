@@ -153,6 +153,11 @@
 	"Item Use Whitelist" = false
 	#Use blacklist as whitelist
 	"Item Whitelist" = false
+	#Blacklist for specific mobs and items they shouldnt use (e.g. skeletons already use bows)
+	#<entity registry name-item>
+	#For different items but same entity use multiple lines
+	#Some special names are BOW, TRIDEN, CROSSBOW refering to every bow/trident/crossbow item (So you dont need to type e.g. every bow item)
+	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
 
 #Settings for attribute modifiers
 [attributes]
@@ -162,25 +167,25 @@
 	#Maximum increase in knockback
 	"Max Knockback" = 0.5
 	#Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable
-	"Magic Resistance Increase" = 1.0
+	"Magic Resistance Increase" = 0.0
 	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
 	"Speed Increase" = 0.0
 	#Damage will be multiplied by difficulty*0.008*x. Set to 0 to disable
-	"Damage Increase Multiplier" = 0.5
+	"Damage Increase Multiplier" = 0.0
 	#Projectile damage will be multiplied by maximum of this
-	"Max Projectile Damage" = 2.0
+	"Max Projectile Damage" = 1.0
 	#Round health to the nearest x. Set to 0 to disable
 	"Round HP" = 0.5
 	#Projectile Damage will be multiplied by 1+difficulty*0.008*x. Set to 0 to disable
-	"Projectile Damage Increase" = 1.0
+	"Projectile Damage Increase" = 0.0
 	#Health will be multiplied by difficulty*0.016*x. Set to 0 to disable
-	"Health Increase Multiplier" = 1.0
+	"Health Increase Multiplier" = 0.0
 	#Damage will be multiplied by at maximum this. Set to 0 means no limit
-	"Max Damage Increase" = 3.0
+	"Max Damage Increase" = 1.0
 	#Health will be multiplied by at maximum this. Set to 0 means no limit
-	"Max Health Increase" = 5.0
+	"Max Health Increase" = 1.0
 	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
-	"Knockback Increase" = 1.0
+	"Knockback Increase" = 0.0
 	#Maximum increase in speed
 	#Range: 0.0 ~ 1.0
 	"Max Speed" = 0.0

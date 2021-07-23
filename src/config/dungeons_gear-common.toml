@@ -11,7 +11,8 @@
 	#Use this list to prevent specific loot tables from getting super rare loot. 
 	#To do so, enter the full path of the specific loot table.
 	superRareLootTablesBlacklist = []
-	#The decimal chance for a unique item to appear in super rare loot tables instead of a common one [0.0-1.0, default: 1.0]
+	#The decimal chance for a unique item to appear in super rare loot tables instead of a common one [0.0-1.0, default: 1.0] 
+	#Note: If a player has the Fortune of the Sea enchantment, this value will effectively be increased by 0.1 per level of the enchantment for them.
 	#Range: 0.0 ~ 1.0
 	uniqueItemSuperRareLoot = 1.0
 
@@ -80,7 +81,8 @@
 	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
 	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
 	rareLootTables = ["minecraft:chests/stronghold", "minecraft:chests/underwater_ruin", "minecraft:chests/ruined_portal", "minecraft:chests/pillager_outpost", "minecraft:chests/simple_dungeon", "minecraft:chests/end_city_treasure", "minecraft:chests/igloo_chest"]
-	#The decimal chance for a unique weapon to appear in rare loot table instead of a common ones [0.0-1.0, default: 0.75]
+	#The decimal chance for a unique weapon to appear in rare loot table instead of a common ones [0.0-1.0, default: 0.75] 
+	#Note: If a player has the Fortune of the Sea enchantment, this value will effectively be increased by 0.1 per level of the enchantment for them.
 	#Range: 0.0 ~ 1.0
 	uniqueItemRareLoot = 0.75
 	#Use this list to prevent specific loot tables from getting rare loot. 
@@ -89,7 +91,8 @@
 
 #Uncommon Loot Table Configuration
 [uncommon_loot_table_configuration]
-	#The decimal chance for a unique item to appear in uncommon loot tables instead of a common one [0.0-1.0, default: 0.5]
+	#The decimal chance for a unique item to appear in uncommon loot tables instead of a common one [0.0-1.0, default: 0.5] 
+	#Note: If a player has the Fortune of the Sea enchantment, this value will effectively be increased by 0.1 per level of the enchantment for them.
 	#Range: 0.0 ~ 1.0
 	uniqueItemUncommonLoot = 0.5
 	#Add gear from this mod to loot tables considered uncommon. 
@@ -105,7 +108,8 @@
 
 #Common Loot Table Configuration
 [common_loot_table_configuration]
-	#The decimal chance for a unique item to appear in common loot tables instead of a common one [0.0-1.0, default: 0.25]
+	#The decimal chance for a unique item to appear in common loot tables instead of a common one [0.0-1.0, default: 0.25] 
+	#Note: If a player has the Fortune of the Sea enchantment, this value will effectively be increased by 0.1 per level of the enchantment for them.
 	#Range: 0.0 ~ 1.0
 	uniqueItemCommonLoot = 0.25
 	#Add gear from this mod to loot tables considered common. 
@@ -176,4 +180,10 @@
 	#Enable armors appearing in chest loot and trades. 
 	#If you want to disable obtaining this mod's armors, disable this feature. [true / false]
 	enableArmorLoot = true
+	#Enable Librarian Villagers trading books enchanted with this mod's enchantments. 
+	#Disable this feature if you want to prevent this. [true / false]
+	enableEnchantmentTrades = true
+	#Enable enchantments from this mod appearing in any type of generated loot. 
+	#Disable this feature if you want to prevent this. [true / false]
+	enableEnchantmentLoot = true
 
